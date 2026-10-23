@@ -48,11 +48,11 @@ def main():
     # 2 ses
     run([py, os.path.join(HERE, "music.py"), a.timeline, "renders/_muzik_ham.wav"])
     if a.anlatim:
-        # anlatim -16 LUFS'a, muzik anlatim konusurken ~10 dB alcalir (sidechain ducking), sonra toplam -14 LUFS
+        # anlatim -16 LUFS'a, muzik -26 LUFS taban, anlatim konusurken ek ~8 dB alcalir (anlatimin ~18 dB altinda) (sidechain ducking), sonra toplam -14 LUFS
         run([FFMPEG, "-hide_banner", "-loglevel", "error", "-y", "-i", "renders/_muzik_ham.wav", "-i", a.anlatim,
              "-filter_complex",
              "[1:a]aresample=48000,aformat=channel_layouts=stereo,loudnorm=I=-16:TP=-2:LRA=7,asplit[n][sc];"
-             "[0:a]aresample=48000,aformat=channel_layouts=stereo,volume=-8dB[m];"
+             "[0:a]aresample=48000,aformat=channel_layouts=stereo,loudnorm=I=-26:TP=-6:LRA=11[m];"
              "[m][sc]sidechaincompress=threshold=0.03:ratio=6:attack=80:release=450[md];"
              "[n][md]amix=inputs=2:normalize=0:duration=first[mix]",
              "-map", "[mix]", "-ar", "48000", "renders/_muzik.wav"])
