@@ -1,3 +1,4 @@
+import sys
 """Jonas Salk 5:30 belgesel - sahne plani uretici.
 Senaryonun her cumlesi bir sahneye baglanir. Ses yokken zamanlama okuma hizindan TAHMIN edilir;
 ses gelince align adimi (kelime zamanlari) bu dosyadaki 'words' tahminlerini gercekleriyle degistirir.
@@ -206,6 +207,7 @@ def split_cues(words, max_chars=42):
     # minimum 0.83 sn ve cakismasizlik
     for a, b in zip(cues, cues[1:] + [None]):
         lim = b[0] - 0.05 if b else a[1] + 1
+        a[1] = round(min(a[1] + 0.5, max(lim, a[1])), 3)     # okuma payi: sonraki altyaziya kadar 0.5 sn uzat
         if a[1] - a[0] < 0.83:
             a[1] = round(min(a[0] + 0.83, max(lim, a[1])), 3)
         if b and a[1] > b[0] - 0.05:
@@ -216,17 +218,27 @@ def split_cues(words, max_chars=42):
 def build(real_words=None):
     t = 0.6
     segs = []
-    for text, sc, para, purpose in SEG:
+    rw = list(real_words) if real_words else None
+    for si, (text, sc, para, purpose) in enumerate(SEG):
         sc = json.loads(json.dumps(sc))
         if not text:  # bolum basligi: sessiz nefes ani
+            if rw:   # gercek seste bolum araligi: onceki konusmanin sonu ile sonrakinin basi arasi
+                nxt = rw[0]["s"]
+                t = max(t, nxt - CH_DUR - 0.25)
             segs.append({"t0": t, "t1": t + CH_DUR, "sc": sc, "words": []}); t += CH_DUR; continue
-        w, t_end = est_times(text, t)
         raw = re.findall(r"[^\s]+", text)
-        words = [(w[i][0], w[i][1], w[i][2], raw[i]) for i in range(len(w))]
+        if rw:
+            ww, rw = rw[:len(raw)], rw[len(raw):]
+            assert [x["w"] for x in ww] == raw, f"metin uyusmuyor: {text[:40]}"
+            words = [(re.sub(r"[^\wçğıöşüÇĞİÖŞÜâîû'’]", "", x["w"]), x["s"], x["e"], x["w"]) for x in ww]
+            t_end = ww[-1]["e"]
+        else:
+            w, t_end = est_times(text, t)
+            words = [(w[i][0], w[i][1], w[i][2], raw[i]) for i in range(len(w))]
         sc.setdefault("purpose", purpose)
         sc["narrationText"] = text
-        segs.append({"t0": t, "t1": t_end, "sc": sc, "words": words})
-        t = t_end + (PARA_PAUSE if para else 0.05)
+        segs.append({"t0": words[0][1], "t1": t_end, "sc": sc, "words": words})
+        t = t_end + (0.25 if rw is not None else (PARA_PAUSE if para else 0.05))
     # sahne zamanlari: sahne konusmadan 0.2 sn once baslar; bir sonrakinin gecisi kadar uzar
     scenes = []; subs = []
     for i, sg in enumerate(segs):
@@ -298,6 +310,11 @@ def build(real_words=None):
 
 
 if __name__ == "__main__":
-    tl, total = build()
+    rw = None
+    if len(sys.argv) > 1:   # gercek ses: python plan_salk.py audio/kelimeler.json
+        rw = json.load(open(sys.argv[1], encoding="utf-8"))
+    tl, total = build(rw)
+    if rw:
+        tl["narration"] = "audio/anlatim.wav"
     json.dump(tl, open("timeline.json", "w", encoding="utf-8"), ensure_ascii=False, indent=1)
     print(f"{len(tl['scenes'])} sahne, toplam {total:.1f} sn ({int(total // 60)}:{int(total % 60):02d}), {len(tl['subtitles'])} altyazi")

@@ -31,3 +31,6 @@ salk16x9/timeline.json
 salk16x9/senaryo_5dk30.txt
 salk16x9/sources.md
 salk16x9/mask06.png
+salk55/audio/*.wav
+salk55/audio/*.mp3
+*_yedek.py

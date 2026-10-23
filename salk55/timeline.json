@@ -4,7 +4,7 @@
  "width": 1920,
  "height": 1080,
  "explicitTiming": true,
- "timingSource": "TAHMİN (ses yok)",
+ "timingSource": "kelime zamanlari",
  "map_dir": "src/map",
  "scenes": [
   {
@@ -22,7 +22,7 @@
     "dur": 0
    },
    "start": 0.0,
-   "end": 3.62
+   "end": 3.21
   },
   {
    "type": "archival_push",
@@ -45,8 +45,8 @@
     "type": "crossfade",
     "dur": 0.45
    },
-   "start": 3.17,
-   "end": 6.645
+   "start": 2.76,
+   "end": 6.74
   },
   {
    "type": "spotlight",
@@ -81,8 +81,8 @@
     "type": "crossfade",
     "dur": 0.45
    },
-   "start": 6.195,
-   "end": 11.645
+   "start": 6.29,
+   "end": 11.8
   },
   {
    "type": "quote",
@@ -107,8 +107,8 @@
     "type": "crossfade",
     "dur": 0.45
    },
-   "start": 11.195,
-   "end": 13.335
+   "start": 11.35,
+   "end": 14.31
   },
   {
    "type": "archival_push",
@@ -132,8 +132,8 @@
     "type": "crossfade",
     "dur": 0.45
    },
-   "start": 12.885,
-   "end": 16.075
+   "start": 13.86,
+   "end": 17.04
   },
   {
    "type": "money",
@@ -153,8 +153,8 @@
     "type": "crossfade",
     "dur": 0.45
    },
-   "start": 15.625,
-   "end": 22.28
+   "start": 16.59,
+   "end": 23.73
   },
   {
    "type": "chapter",
@@ -176,8 +176,8 @@
     "type": "crossfade",
     "dur": 0.45
    },
-   "start": 21.83,
-   "end": 33.185
+   "start": 23.28,
+   "end": 34.53
   },
   {
    "type": "chapter",
@@ -212,8 +212,8 @@
     }
    ],
    "id": "s08_chapter",
-   "start": 32.685,
-   "end": 35.535
+   "start": 34.03,
+   "end": 37.13
   },
   {
    "type": "map",
@@ -268,8 +268,8 @@
     "type": "crossfade",
     "dur": 0.45
    },
-   "start": 35.085,
-   "end": 43.925
+   "start": 36.68,
+   "end": 46.06
   },
   {
    "type": "stats",
@@ -300,8 +300,8 @@
     "type": "crossfade",
     "dur": 0.45
    },
-   "start": 43.475,
-   "end": 49.89
+   "start": 45.61,
+   "end": 52.62
   },
   {
    "type": "spotlight",
@@ -334,8 +334,8 @@
     "type": "crossfade",
     "dur": 0.45
    },
-   "start": 49.44,
-   "end": 53.7
+   "start": 52.17,
+   "end": 56.75
   },
   {
    "type": "compare",
@@ -361,8 +361,8 @@
     "type": "crossfade",
     "dur": 0.45
    },
-   "start": 53.25,
-   "end": 58.215
+   "start": 56.3,
+   "end": 61.15
   },
   {
    "type": "spotlight",
@@ -396,8 +396,8 @@
     "type": "crossfade",
     "dur": 0.45
    },
-   "start": 57.765,
-   "end": 64.67
+   "start": 60.7,
+   "end": 68.47
   },
   {
    "type": "archival_push",
@@ -419,8 +419,8 @@
     "type": "crossfade",
     "dur": 0.45
    },
-   "start": 64.22,
-   "end": 67.38
+   "start": 68.02,
+   "end": 71.63
   },
   {
    "type": "archival_kinetic",
@@ -457,8 +457,8 @@
     "type": "crossfade",
     "dur": 0.45
    },
-   "start": 66.93,
-   "end": 72.2
+   "start": 71.18,
+   "end": 76.88
   },
   {
    "type": "archival_push",
@@ -482,8 +482,8 @@
     "type": "crossfade",
     "dur": 0.45
    },
-   "start": 71.75,
-   "end": 75.135
+   "start": 76.43,
+   "end": 80.26
   },
   {
    "type": "archival_push",
@@ -505,8 +505,8 @@
     "type": "crossfade",
     "dur": 0.45
    },
-   "start": 74.685,
-   "end": 77.93
+   "start": 79.81,
+   "end": 83.28
   },
   {
    "type": "photo_card",
@@ -531,8 +531,8 @@
     "type": "crossfade",
     "dur": 0.45
    },
-   "start": 77.48,
-   "end": 83.96
+   "start": 82.83,
+   "end": 89.75
   },
   {
    "type": "archival_push",
@@ -554,8 +554,8 @@
     "type": "crossfade",
     "dur": 0.45
    },
-   "start": 83.51,
-   "end": 87.1
+   "start": 89.3,
+   "end": 92.82
   },
   {
    "type": "coins",
@@ -572,8 +572,8 @@
     "type": "crossfade",
     "dur": 0.45
    },
-   "start": 86.65,
-   "end": 93.65,
+   "start": 92.37,
+   "end": 99.81,
    "soundEffects": [
     {
      "type": "tick",
@@ -582,62 +582,62 @@
     },
     {
      "type": "tick",
-     "t": 0.533,
+     "t": 0.536,
      "gain": 0.45
     },
     {
      "type": "tick",
-     "t": 0.6,
+     "t": 0.609,
      "gain": 0.45
     },
     {
      "type": "tick",
-     "t": 0.703,
+     "t": 0.721,
      "gain": 0.45
     },
     {
      "type": "tick",
-     "t": 0.845,
+     "t": 0.875,
      "gain": 0.45
     },
     {
      "type": "tick",
-     "t": 1.029,
+     "t": 1.076,
      "gain": 0.45
     },
     {
      "type": "tick",
-     "t": 1.292,
+     "t": 1.362,
      "gain": 0.45
     },
     {
      "type": "tick",
-     "t": 1.607,
+     "t": 1.704,
      "gain": 0.45
     },
     {
      "type": "tick",
-     "t": 2.013,
+     "t": 2.146,
      "gain": 0.45
     },
     {
      "type": "tick",
-     "t": 2.477,
+     "t": 2.651,
      "gain": 0.45
     },
     {
      "type": "tick",
-     "t": 3.043,
+     "t": 3.267,
      "gain": 0.45
     },
     {
      "type": "tick",
-     "t": 3.716,
+     "t": 3.999,
      "gain": 0.45
     },
     {
      "type": "tick",
-     "t": 4.503,
+     "t": 4.855,
      "gain": 0.45
     }
    ]
@@ -665,8 +665,8 @@
     "type": "crossfade",
     "dur": 0.45
    },
-   "start": 93.2,
-   "end": 100.195
+   "start": 99.36,
+   "end": 106.04
   },
   {
    "type": "chapter",
@@ -701,8 +701,8 @@
     }
    ],
    "id": "s22_chapter",
-   "start": 99.695,
-   "end": 102.545
+   "start": 105.54,
+   "end": 108.64
   },
   {
    "type": "microscope",
@@ -723,8 +723,8 @@
     "type": "crossfade",
     "dur": 0.45
    },
-   "start": 102.095,
-   "end": 105.82
+   "start": 108.19,
+   "end": 112.06
   },
   {
    "type": "portrait_parallax",
@@ -746,8 +746,8 @@
     "type": "crossfade",
     "dur": 0.45
    },
-   "start": 105.37,
-   "end": 109.31
+   "start": 111.61,
+   "end": 115.76
   },
   {
    "type": "archival_push",
@@ -769,8 +769,8 @@
     "type": "crossfade",
     "dur": 0.45
    },
-   "start": 108.86,
-   "end": 113.575
+   "start": 115.31,
+   "end": 119.86
   },
   {
    "type": "archival_kinetic",
@@ -807,8 +807,8 @@
     "type": "crossfade",
     "dur": 0.45
    },
-   "start": 113.125,
-   "end": 118.79
+   "start": 119.41,
+   "end": 125.75
   },
   {
    "type": "map",
@@ -870,8 +870,8 @@
     "type": "crossfade",
     "dur": 0.45
    },
-   "start": 118.34,
-   "end": 124.435
+   "start": 125.3,
+   "end": 131.18
   },
   {
    "type": "question",
@@ -889,8 +889,8 @@
     "type": "crossfade",
     "dur": 0.45
    },
-   "start": 123.985,
-   "end": 128.735
+   "start": 130.73,
+   "end": 135.41
   },
   {
    "type": "compare",
@@ -917,8 +917,8 @@
     "type": "crossfade",
     "dur": 0.45
    },
-   "start": 128.285,
-   "end": 137.205
+   "start": 134.96,
+   "end": 145.05
   },
   {
    "type": "virus3d",
@@ -927,7 +927,7 @@
     "title": "Ölü virüs",
     "sub": "Formaldehitle etkisiz hâle getirildi",
     "hud": "POLİOVİRÜS",
-    "dead_t": 1.76
+    "dead_t": 2.04
    },
    "purpose": "Bilimsel fikir (temsili)",
    "narrationText": "Virüsü formaldehitle tamamen öldürürse, vücut yine de onu tanımayı öğrenebilirdi. Üstelik ölü bir virüs, kimseyi hasta edemezdi.",
@@ -936,8 +936,8 @@
     "type": "crossfade",
     "dur": 0.45
    },
-   "start": 136.755,
-   "end": 145.165
+   "start": 144.6,
+   "end": 153.71
   },
   {
    "type": "photo_card",
@@ -962,8 +962,8 @@
     "type": "crossfade",
     "dur": 0.45
    },
-   "start": 144.715,
-   "end": 152.025
+   "start": 153.26,
+   "end": 161.14
   },
   {
    "type": "archival_push",
@@ -985,8 +985,8 @@
     "type": "crossfade",
     "dur": 0.45
    },
-   "start": 151.575,
-   "end": 157.39
+   "start": 160.69,
+   "end": 166.62
   },
   {
    "type": "archival_kinetic",
@@ -1006,7 +1006,7 @@
      [
       "BİR İNSANA YAPMAK",
       "big",
-      3.56
+      3.6
      ]
     ]
    },
@@ -1018,8 +1018,8 @@
     "type": "crossfade",
     "dur": 0.45
    },
-   "start": 156.94,
-   "end": 162.55
+   "start": 166.17,
+   "end": 171.09
   },
   {
    "type": "chapter",
@@ -1054,8 +1054,8 @@
     }
    ],
    "id": "s34_chapter",
-   "start": 162.05,
-   "end": 164.9
+   "start": 170.59,
+   "end": 173.69
   },
   {
    "type": "question",
@@ -1073,8 +1073,8 @@
     "type": "crossfade",
     "dur": 0.45
    },
-   "start": 164.45,
-   "end": 168.45
+   "start": 173.24,
+   "end": 177.67
   },
   {
    "type": "family",
@@ -1091,27 +1091,27 @@
      [
       "SALK",
       230,
-      5.24
+      5.64
      ],
      [
       "EŞİ",
       205,
-      6.785
+      7.32
      ],
      [
       "OĞLU",
       150,
-      8.235
+      8.87
      ],
      [
       "OĞLU",
       135,
-      8.485
+      9.12
      ],
      [
       "OĞLU",
       120,
-      8.735
+      9.37
      ]
     ]
    },
@@ -1122,8 +1122,8 @@
     "type": "crossfade",
     "dur": 0.45
    },
-   "start": 168.0,
-   "end": 177.235
+   "start": 177.22,
+   "end": 187.27
   },
   {
    "type": "archival_push",
@@ -1147,8 +1147,8 @@
     "type": "crossfade",
     "dur": 0.45
    },
-   "start": 176.785,
-   "end": 181.22
+   "start": 186.82,
+   "end": 191.71
   },
   {
    "type": "quote",
@@ -1173,8 +1173,8 @@
     "type": "crossfade",
     "dur": 0.45
    },
-   "start": 180.77,
-   "end": 186.605
+   "start": 191.26,
+   "end": 197.16
   },
   {
    "type": "chapter",
@@ -1209,8 +1209,8 @@
     }
    ],
    "id": "s39_chapter",
-   "start": 186.105,
-   "end": 188.955
+   "start": 196.66,
+   "end": 199.76
   },
   {
    "type": "timeline3d",
@@ -1259,8 +1259,8 @@
     "type": "crossfade",
     "dur": 0.45
    },
-   "start": 188.505,
-   "end": 191.695
+   "start": 199.31,
+   "end": 202.81
   },
   {
    "type": "crowd3d_cine",
@@ -1299,8 +1299,8 @@
     "type": "crossfade",
     "dur": 0.45
    },
-   "start": 191.245,
-   "end": 201.88
+   "start": 202.36,
+   "end": 213.46
   },
   {
    "type": "map",
@@ -1362,8 +1362,8 @@
     "type": "crossfade",
     "dur": 0.45
    },
-   "start": 201.43,
-   "end": 206.66
+   "start": 213.01,
+   "end": 218.72
   },
   {
    "type": "money",
@@ -1382,8 +1382,8 @@
     "type": "crossfade",
     "dur": 0.45
    },
-   "start": 206.21,
-   "end": 211.14
+   "start": 218.27,
+   "end": 223.55
   },
   {
    "type": "timeline3d",
@@ -1446,8 +1446,8 @@
     "type": "crossfade",
     "dur": 0.45
    },
-   "start": 210.69,
-   "end": 214.625
+   "start": 223.1,
+   "end": 226.34
   },
   {
    "type": "chapter",
@@ -1482,8 +1482,8 @@
     }
    ],
    "id": "s45_chapter",
-   "start": 214.125,
-   "end": 216.975
+   "start": 225.84,
+   "end": 228.94
   },
   {
    "type": "year_card",
@@ -1503,8 +1503,8 @@
     "type": "crossfade",
     "dur": 0.45
    },
-   "start": 216.525,
-   "end": 222.54
+   "start": 228.49,
+   "end": 234.45
   },
   {
    "type": "quote",
@@ -1522,8 +1522,8 @@
     ],
     "who": "Thomas Francis, 12 Nisan 1955",
     "size": 96,
-    "t0": 3.655,
-    "step": 0.5925
+    "t0": 4.07,
+    "step": 0.96
    },
    "noSubs": false,
    "purpose": "Kanıt",
@@ -1533,8 +1533,8 @@
     "type": "crossfade",
     "dur": 0.45
    },
-   "start": 222.09,
-   "end": 227.885
+   "start": 234.0,
+   "end": 241.08
   },
   {
    "type": "headline3d",
@@ -1610,8 +1610,8 @@
     "type": "crossfade",
     "dur": 0.45
    },
-   "start": 227.435,
-   "end": 232.01
+   "start": 240.63,
+   "end": 245.45
   },
   {
    "type": "photo_card",
@@ -1632,8 +1632,8 @@
     "type": "crossfade",
     "dur": 0.45
    },
-   "start": 231.56,
-   "end": 234.745
+   "start": 245.0,
+   "end": 248.58
   },
   {
    "type": "archival_push",
@@ -1651,7 +1651,7 @@
    "soundEffects": [
     {
      "type": "riser",
-     "t": 3.765,
+     "t": 4.59,
      "dur": 1.6,
      "gain": 0.08
     }
@@ -1663,8 +1663,8 @@
     "type": "crossfade",
     "dur": 0.45
    },
-   "start": 234.295,
-   "end": 238.46
+   "start": 248.13,
+   "end": 253.12
   },
   {
    "type": "quote",
@@ -1683,7 +1683,7 @@
     "who": "Jonas Salk, 12 Nisan 1955",
     "size": 66,
     "sun": true,
-    "sun_t": 4.905
+    "sun_t": 5.49
    },
    "noSubs": true,
    "soundEffects": [
@@ -1706,8 +1706,8 @@
     "type": "crossfade",
     "dur": 0.45
    },
-   "start": 238.01,
-   "end": 245.78
+   "start": 252.67,
+   "end": 260.32
   },
   {
    "type": "chapter",
@@ -1742,8 +1742,8 @@
     }
    ],
    "id": "s52_chapter",
-   "start": 245.28,
-   "end": 248.13
+   "start": 259.82,
+   "end": 262.92
   },
   {
    "type": "archival_kinetic",
@@ -1763,15 +1763,15 @@
      [
       "CÖMERTLİĞİN SEMBOLÜ",
       "big",
-      1.44
+      1.36
      ],
      [
       "Ama hikâyenin az bilinen bir tarafı var.",
       "small",
-      3.835
+      4.18
      ]
     ],
-    "turn_t": 3.835
+    "turn_t": 4.18
    },
    "noSubs": true,
    "purpose": "Beklentiyi kırma",
@@ -1781,8 +1781,8 @@
     "type": "crossfade",
     "dur": 0.45
    },
-   "start": 247.68,
-   "end": 254.73
+   "start": 262.47,
+   "end": 269.93
   },
   {
    "type": "headline3d",
@@ -1875,8 +1875,8 @@
     "type": "crossfade",
     "dur": 0.45
    },
-   "start": 254.28,
-   "end": 261.44
+   "start": 269.48,
+   "end": 277.31
   },
   {
    "type": "money",
@@ -1892,7 +1892,7 @@
     "question": "Patent başvurusu hiç yapılmadı.",
     "num3d": true,
     "nocount": true,
-    "strike_t": 2.42
+    "strike_t": 2.76
    },
    "purpose": "Yeni bilgi: iddia düzeltilir",
    "narrationText": "Yani Salk büyük ihtimalle bir patenti reddetmedi; patent almaya hiç uğraşmadı.",
@@ -1901,8 +1901,8 @@
     "type": "crossfade",
     "dur": 0.45
    },
-   "start": 260.99,
-   "end": 266.31
+   "start": 276.86,
+   "end": 283.25
   },
   {
    "type": "question",
@@ -1920,8 +1920,8 @@
     "type": "crossfade",
     "dur": 0.45
    },
-   "start": 265.86,
-   "end": 269.52
+   "start": 282.8,
+   "end": 286.77
   },
   {
    "type": "spotlight",
@@ -1955,8 +1955,8 @@
     "type": "crossfade",
     "dur": 0.45
    },
-   "start": 269.07,
-   "end": 277.79
+   "start": 286.32,
+   "end": 295.99
   },
   {
    "type": "cutter3d",
@@ -1964,9 +1964,9 @@
    "params": {
     "kicker": "1955 · CUTTER LABORATUVARLARI",
     "note": "Her nokta bir vaka · Kaynak: USC Scalar, The Cutter Incident",
-    "w1_t": 5.46,
-    "w2_t": 6.91,
-    "w3_t": 8.95
+    "w1_t": 5.72,
+    "w2_t": 7.31,
+    "w3_t": 9.35
    },
    "purpose": "Dürüstlük",
    "narrationText": "Kabul edilmesi gereken bir gerçek daha var. İlk aylarda bir firmanın hatalı üretimi, kırk bin kadar vakaya, iki yüz çocuğun felç kalmasına ve on çocuğun ölümüne yol açtı.",
@@ -1975,8 +1975,8 @@
     "type": "crossfade",
     "dur": 0.45
    },
-   "start": 277.34,
-   "end": 288.575
+   "start": 295.54,
+   "end": 307.38
   },
   {
    "type": "headline3d",
@@ -2053,8 +2053,8 @@
     "type": "crossfade",
     "dur": 0.45
    },
-   "start": 288.125,
-   "end": 293.875
+   "start": 306.93,
+   "end": 312.37
   },
   {
    "type": "bars3d",
@@ -2080,7 +2080,7 @@
      ]
     ],
     "note": "Kaynak: History of polio",
-    "step": 3.8600000000000003
+    "step": 3.9099999999999997
    },
    "purpose": "Sonuç verisi",
    "narrationText": "Ve sonra rakamlar konuştu. Bin dokuz yüz elli ikide yaklaşık elli sekiz bin olan vaka sayısı, sadece beş yıl sonra beş bin altı yüze indi. On yıl dolmadan, yüz altmış bire düştü.",
@@ -2089,8 +2089,8 @@
     "type": "crossfade",
     "dur": 0.45
    },
-   "start": 293.425,
-   "end": 305.615
+   "start": 311.92,
+   "end": 324.23
   },
   {
    "type": "archival_push",
@@ -2112,8 +2112,8 @@
     "type": "crossfade",
     "dur": 0.45
    },
-   "start": 305.165,
-   "end": 307.905
+   "start": 323.78,
+   "end": 326.46
   },
   {
    "type": "timeline3d",
@@ -2162,8 +2162,8 @@
     "type": "crossfade",
     "dur": 0.45
    },
-   "start": 307.455,
-   "end": 315.32
+   "start": 326.01,
+   "end": 334.4
   },
   {
    "type": "globe",
@@ -2222,8 +2222,8 @@
     "type": "crossfade",
     "dur": 0.45
    },
-   "start": 314.87,
-   "end": 319.995
+   "start": 333.95,
+   "end": 339.08
   },
   {
    "type": "kod",
@@ -2238,7 +2238,7 @@
     "hl": 2,
     "question": "Sen olsaydın, ne cevap verirdin?",
     "sun": true,
-    "q_t": 10.145
+    "q_t": 10.97
    },
    "noSubs": true,
    "purpose": "İlke + soru",
@@ -2248,8 +2248,8 @@
     "type": "crossfade",
     "dur": 0.45
    },
-   "start": 319.545,
-   "end": 334.41
+   "start": 338.63,
+   "end": 353.75
   },
   {
    "id": "s99_end",
@@ -2266,400 +2266,400 @@
     "type": "dip",
     "dur": 0.6
    },
-   "start": 333.81,
-   "end": 341.81,
+   "start": 353.15,
+   "end": 361.15,
    "purpose": "Bitiş ekranı (YouTube öğeleri)"
   }
  ],
  "subtitles": [
   [
-   0.6,
-   3.17,
+   0.68,
+   3.15,
    "On iki Nisan, bin dokuz yüz elli beş."
   ],
   [
-   3.37,
-   6.195,
+   2.96,
+   6.68,
    "Amerika'da milyonlarca insan televizyonun\nbaşında."
   ],
   [
-   6.395,
-   9.975,
+   6.49,
+   9.97,
    "Ünlü gazeteci Edward Murrow, kırk\nyaşındaki bir doktora basit"
   ],
   [
-   10.025,
-   11.195,
+   10.02,
+   11.54,
    "bir soru soruyor:"
   ],
   [
-   13.085,
-   15.625,
+   14.06,
+   16.93,
    "Doktorun vereceği cevap, tarihe geçecekti."
   ],
   [
-   15.825,
-   20.515,
+   16.79,
+   21.54,
    "Ve verdiği cevapla, bazı tahminlere göre\nyedi milyar dolarlık bir serveti masada"
   ],
   [
-   20.565,
-   21.83,
+   21.59,
+   23.5,
    "bıraktığı söyleniyor."
   ],
   [
-   22.03,
-   23.635,
+   23.48,
+   25.57,
    "Bu, o cevabın hikâyesi."
   ],
   [
-   23.785,
-   27.62,
+   25.62,
+   29.48,
    "Sonunda bu ünlü cevabın pek bilinmeyen bir\nyüzünü de göreceğiz."
   ],
   [
-   27.77,
-   32.085,
+   29.53,
+   34.53,
    "Ama önce, o cevabı bu kadar değerli yapan\nkorkuyu anlamamız gerekiyor."
   ],
   [
-   35.285,
-   36.895,
+   36.88,
+   38.5,
    "Bin dokuz yüz elli iki."
   ],
   [
-   37.045,
-   40.56,
+   38.55,
+   42.54,
    "Amerika, tarihinin en büyük çocuk felci\nsalgınını yaşıyor."
   ],
   [
-   40.71,
-   43.475,
+   42.59,
+   45.94,
    "Tek bir yılda yaklaşık elli sekiz bin\nvaka."
   ],
   [
-   43.675,
-   45.11,
+   45.81,
+   47.52,
    "Üç binden fazla ölüm."
   ],
   [
-   45.26,
-   49.44,
+   47.57,
+   52.29,
    "Yirmi bir binden fazla insan, ömrünün geri\nkalanını felçle geçirecek."
   ],
   [
-   49.64,
-   53.25,
+   52.37,
+   56.54,
    "Hastalığın en korkutucu yanı, kimi\nseçeceğinin bilinmemesiydi."
   ],
   [
-   53.45,
-   57.765,
+   56.5,
+   61.0,
    "Sabah koşarak okula giden bir çocuk, akşam\nyürüyemez hâle gelebiliyordu."
   ],
   [
-   57.965,
-   60.16,
+   60.9,
+   63.4,
    "Bazı hastalar nefes bile alamıyordu."
   ],
   [
-   60.31,
-   64.22,
+   63.45,
+   68.3,
    "Onlar için tek çare, demir akciğer denen\ndev metal makinelerdi."
   ],
   [
-   64.42,
-   66.93,
+   68.22,
+   71.39,
    "Hastane koridorları bu makinelerle\ndoluydu."
   ],
   [
-   71.95,
-   74.685,
+   76.63,
+   80.02,
    "Anneler çocuklarını sokağa çıkarmaya\nkorkuyordu."
   ],
   [
-   74.885,
-   77.48,
+   80.01,
+   82.97,
    "Bu hastalık güçlüleri bile ayırt\netmiyordu."
   ],
   [
-   77.68,
-   82.06,
+   83.03,
+   87.53,
    "Franklin Roosevelt, otuz dokuz yaşında\nçocuk felcine yakalanmış ve bir daha"
   ],
   [
-   82.11,
-   83.51,
+   87.58,
+   89.44,
    "yardımsız yürüyememişti."
   ],
   [
-   83.71,
-   86.65,
+   89.5,
+   92.75,
    "Kurduğu vakıf, halktan küçük bağışlar\ntopluyordu."
   ],
   [
-   86.85,
-   89.715,
+   92.57,
+   95.81,
    "İnsanlar zarflara birer onluk koyup\ngönderiyordu."
   ],
   [
-   89.865,
-   93.2,
+   95.86,
+   99.67,
    "Milyonlarca bozuk para, tek bir umut için\nbirikiyordu."
   ],
   [
-   93.4,
-   98.14,
+   99.56,
+   104.58,
    "Ama bu umudu gerçeğe dönüştürecek kişi, o\nyıllarda henüz kimsenin tanımadığı genç"
   ],
   [
-   98.19,
-   99.095,
+   104.63,
+   106.04,
    "bir doktordu."
   ],
   [
-   102.295,
-   105.37,
+   108.39,
+   111.76,
    "Bu umudun adresi, Pittsburgh'daki bir\nlaboratuvardı."
   ],
   [
-   109.06,
-   113.125,
+   115.51,
+   119.81,
    "Tıp fakültesini bitirdiğinde önünde rahat\nbir hekimlik kariyeri vardı."
   ],
   [
-   118.54,
-   122.225,
+   125.5,
+   128.85,
    "Bin dokuz yüz kırk yedide Pittsburgh\nÜniversitesi'nde kendi virüs"
   ],
   [
-   122.275,
-   123.985,
+   128.9,
+   131.08,
    "laboratuvarının başına geçti."
   ],
   [
-   128.485,
-   132.915,
+   135.16,
+   140.28,
    "O yıllardaki yaygın görüş şuydu: Kalıcı\nbağışıklık için vücuda canlı ama"
   ],
   [
-   132.965,
-   134.855,
+   140.33,
+   142.63,
    "zayıflatılmış virüs verilmeliydi."
   ],
   [
-   135.005,
-   136.755,
+   142.68,
+   144.86,
    "Salk ise farklı düşünüyordu."
   ],
   [
-   136.955,
-   141.675,
+   144.8,
+   150.32,
    "Virüsü formaldehitle tamamen öldürürse,\nvücut yine de onu tanımayı öğrenebilirdi."
   ],
   [
-   141.825,
-   144.715,
+   150.37,
+   153.58,
    "Üstelik ölü bir virüs, kimseyi hasta\nedemezdi."
   ],
   [
-   144.915,
-   147.825,
+   153.46,
+   156.5,
    "En güçlü rakibi Albert Sabin, ölü virüsle\nkalıcı"
   ],
   [
-   147.875,
-   149.945,
+   156.55,
+   159.12,
    "koruma sağlanamayacağını savunuyordu."
   ],
   [
-   150.095,
-   151.575,
+   159.17,
+   161.06,
    "Salk geri adım atmadı."
   ],
   [
-   151.775,
-   155.855,
+   160.89,
+   165.13,
    "Laboratuvarında yıllar süren deneylerin\nsonunda, işe yarayacağına inandığı"
   ],
   [
-   155.905,
-   156.94,
+   165.18,
+   166.5,
    "bir aşı vardı."
   ],
   [
-   168.2,
-   170.92,
+   177.42,
+   180.8,
    "Salk'ın cevabı, beklenmeyecek kadar\nkişiseldi."
   ],
   [
-   171.07,
-   174.28,
+   180.85,
+   184.22,
    "Bin dokuz yüz elli üçte aşıyı önce\nkendisine yaptı."
   ],
   [
-   174.43,
-   176.785,
+   184.27,
+   187.13,
    "Sonra eşine. Sonra da üç oğluna."
   ],
   [
-   176.985,
-   180.77,
+   187.02,
+   191.47,
    "Bir babanın, kendi geliştirdiği aşıyı\nkendi çocuklarına yapması..."
   ],
   [
-   188.705,
-   191.245,
+   199.51,
+   202.53,
    "Ama inanç yetmezdi. Kanıt gerekiyordu."
   ],
   [
-   191.445,
-   196.035,
+   202.56,
+   207.24,
    "Bin dokuz yüz elli dörtte tarihin en büyük\ntıbbi deneylerinden biri başladı."
   ],
   [
-   196.185,
-   199.175,
+   207.29,
+   210.5,
    "Bir milyon sekiz yüz binden fazla çocuk\nkatıldı."
   ],
   [
-   199.325,
-   201.43,
+   210.55,
+   213.45,
    "Onlara \"Çocuk Felci Öncüleri\" dendi."
   ],
   [
-   201.63,
-   206.21,
+   213.21,
+   218.63,
    "Deneyi tarafsız kalması için Salk değil,\neski hocası Thomas Francis yönetti."
   ],
   [
-   206.41,
-   210.69,
+   218.47,
+   223.45,
    "Masrafların büyük kısmı, halkın gönderdiği\no küçük bağışlarla karşılandı."
   ],
   [
-   210.89,
-   213.525,
+   223.3,
+   226.34,
    "Bir yıl boyunca bütün ülke sonucu bekledi."
   ],
   [
-   216.725,
-   219.295,
+   228.69,
+   230.93,
    "On iki Nisan, bin dokuz yüz elli beş."
   ],
   [
-   219.445,
-   222.09,
+   230.98,
+   234.33,
    "Michigan Üniversitesi'nde salon tıklım\ntıklım."
   ],
   [
-   222.29,
-   227.435,
+   234.2,
+   241.05,
    "Thomas Francis kürsüye çıkıyor ve sonucu\naçıklıyor: Aşı güvenli, etkili ve güçlü."
   ],
   [
-   227.635,
-   229.21,
+   240.83,
+   242.45,
    "Kiliselerin çanları çaldı."
   ],
   [
-   229.36,
-   231.56,
+   242.5,
+   245.44,
    "İnsanlar sokaklarda birbirine sarıldı."
   ],
   [
-   231.76,
-   234.295,
+   245.2,
+   248.37,
    "Salk, bir gecede ülkenin kahramanı oldu."
   ],
   [
-   234.495,
-   238.31,
+   248.33,
+   252.87,
    "Ve o akşam, Edward Murrow o soruyu sordu:\n\"Patent kimin?\""
   ],
   [
-   254.48,
-   259.1,
+   269.68,
+   274.82,
    "Bazı hukukçulara göre aşının yöntemi daha\nönceki çalışmalara dayandığı için patent"
   ],
   [
-   259.15,
-   260.99,
+   274.87,
+   277.28,
    "almak zaten kolay olmayacaktı."
   ],
   [
-   261.19,
-   265.86,
+   277.06,
+   283.01,
    "Yani Salk büyük ihtimalle bir patenti\nreddetmedi; patent almaya hiç uğraşmadı."
   ],
   [
-   269.27,
-   271.775,
+   286.52,
+   289.56,
    "Çünkü asıl seçim patentle ilgili değildi."
   ],
   [
-   271.925,
-   274.73,
+   289.61,
+   292.78,
    "Aşı, birçok üreticinin kullanımına açık\nkaldı."
   ],
   [
-   274.88,
-   277.34,
+   292.83,
+   295.97,
    "Bu yüzden hızla ve ucuza çoğaltılabildi."
   ],
   [
-   277.54,
-   280.22,
+   295.74,
+   298.44,
    "Kabul edilmesi gereken bir gerçek daha\nvar."
   ],
   [
-   280.37,
-   285.175,
+   298.49,
+   303.74,
    "İlk aylarda bir firmanın hatalı üretimi,\nkırk bin kadar vakaya, iki yüz çocuğun"
   ],
   [
-   285.225,
-   288.125,
+   303.79,
+   307.1,
    "felç kalmasına ve on çocuğun ölümüne yol\naçtı."
   ],
   [
-   288.325,
-   292.825,
+   307.13,
+   312.21,
    "Bu trajedi, aşı üretimindeki güvenlik\nkurallarının baştan yazılmasını sağladı."
   ],
   [
-   293.625,
-   295.285,
+   312.12,
+   314.14,
    "Ve sonra rakamlar konuştu."
   ],
   [
-   295.435,
-   300.425,
+   314.19,
+   318.83,
    "Bin dokuz yüz elli ikide yaklaşık elli\nsekiz bin olan vaka sayısı, sadece beş yıl"
   ],
   [
-   300.475,
-   302.44,
+   318.88,
+   321.29,
    "sonra beş bin altı yüze indi."
   ],
   [
-   302.59,
-   305.165,
+   321.34,
+   323.93,
    "On yıl dolmadan, yüz altmış bire düştü."
   ],
   [
-   305.365,
-   307.455,
+   323.98,
+   326.41,
    "Salk, Nobel Ödülü'nü hiç almadı."
   ],
   [
-   307.655,
-   312.355,
+   326.21,
+   331.15,
    "Ama bin dokuz yüz altmış üçte kendi adını\ntaşıyan araştırma enstitüsünü kurdu ve"
   ],
   [
-   312.405,
-   314.87,
+   331.2,
+   334.05,
    "hayatının sonuna kadar çalışmayı sürdürdü."
   ]
  ],
@@ -2670,40 +2670,41 @@
     "dark"
    ],
    [
-    32.685,
+    34.03,
     "tension"
    ],
    [
-    99.695,
+    105.54,
     "curious"
    ],
    [
-    162.05,
+    170.59,
     "dark"
    ],
    [
-    186.105,
+    196.66,
     "curious"
    ],
    [
-    214.125,
+    225.84,
     "hope"
    ],
    [
-    245.28,
+    259.82,
     "dark"
    ],
    [
-    293.425,
+    311.92,
     "hope"
    ],
    [
-    319.545,
+    338.63,
     "resolve"
    ]
   ],
   "hits": [],
   "risers": [],
   "drops": []
- }
+ },
+ "narration": "audio/anlatim.wav"
 }
