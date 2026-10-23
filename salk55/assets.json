@@ -1,0 +1,269 @@
+{
+ "proje": "Jonas Salk – Güneşin Patenti",
+ "guncelleme": "2026-10-23",
+ "izinli_lisanslar": [
+  "Public domain",
+  "CC0",
+  "No known restrictions",
+  "Kanala ait",
+  "CC BY 2.0",
+  "CC BY 3.0",
+  "CC BY 4.0"
+ ],
+ "not": "CC BY lisanslılar için 'atif' alanı YouTube açıklamasına yazılmalıdır.",
+ "varliklar": {
+  "src/01_karantina_karti.jpg": {
+   "aciklama": "Çocuk felci karantina kartı",
+   "kaynak": "Wikimedia Commons: Polio quarantine card.jpg",
+   "adres": "https://commons.wikimedia.org/wiki/File:Polio_quarantine_card.jpg",
+   "lisans": "Public domain",
+   "atif": null,
+   "indirme": "2026-10-22",
+   "adres_dogrulandi": true
+  },
+  "src/02_virus_mikroskop.jpg": {
+   "aciklama": "Poliovirüs, elektron mikroskobu",
+   "kaynak": "CDC PHIL 1875",
+   "adres": "https://commons.wikimedia.org/wiki/File:Polio_EM_PHIL_1875_lores.PNG",
+   "lisans": "Public domain",
+   "atif": null,
+   "indirme": "2026-10-22",
+   "adres_dogrulandi": true
+  },
+  "src/03_cocuklar_fizik_tedavi.jpg": {
+   "aciklama": "Fizik tedavi gören çocuklar",
+   "kaynak": "CDC / Charles Farmer",
+   "adres": "https://commons.wikimedia.org/wiki/File:Polio_physical_therapy.jpg",
+   "lisans": "Public domain",
+   "atif": null,
+   "indirme": "2026-10-22",
+   "adres_dogrulandi": true
+  },
+  "src/04_demir_ciger_hasta.jpg": {
+   "aciklama": "Demir akciğerde hasta",
+   "kaynak": "National Museum of Health and Medicine (NCP 3631)",
+   "adres": "https://commons.wikimedia.org/wiki/File:Polio_patient_in_iron_lung.jpg",
+   "lisans": "CC BY 2.0",
+   "atif": "National Museum of Health and Medicine, CC BY 2.0",
+   "indirme": "2026-10-22",
+   "adres_dogrulandi": false
+  },
+  "src/05_demir_ciger_makine.jpg": {
+   "aciklama": "Demir akciğer",
+   "kaynak": "CDC",
+   "adres": "https://commons.wikimedia.org/wiki/File:Iron_lung_CDC.jpg",
+   "lisans": "Public domain",
+   "atif": null,
+   "indirme": "2026-10-22",
+   "adres_dogrulandi": true
+  },
+  "src/06_salk_portre_1959.jpg": {
+   "aciklama": "Jonas Salk, Kopenhag 1959",
+   "kaynak": "SAS Scandinavian Airlines",
+   "adres": "https://commons.wikimedia.org/wiki/File:Jonas_Salk_1959.jpg",
+   "lisans": "Public domain",
+   "atif": null,
+   "indirme": "2026-10-22",
+   "adres_dogrulandi": false
+  },
+  "src/07_salk_candid.jpg": {
+   "aciklama": "Jonas Salk, 1959",
+   "kaynak": "SAS Scandinavian Airlines",
+   "adres": "https://commons.wikimedia.org/wiki/File:Jonas_Salk_1959.jpg",
+   "lisans": "Public domain",
+   "atif": null,
+   "indirme": "2026-10-22",
+   "adres_dogrulandi": false
+  },
+  "src/08_asi_1956_a.jpg": {
+   "aciklama": "Çocuk felci aşısı, 1956",
+   "kaynak": "Mississippi Dept. of Archives and History",
+   "adres": "https://commons.wikimedia.org/wiki/File:Polio_vaccine_1956.jpg",
+   "lisans": "No known restrictions",
+   "atif": null,
+   "indirme": "2026-10-22",
+   "adres_dogrulandi": false
+  },
+  "src/09_asi_1956_b.jpg": {
+   "aciklama": "Çocuk felci aşısı, 1956",
+   "kaynak": "Mississippi Dept. of Archives and History",
+   "adres": "https://commons.wikimedia.org/wiki/File:Polio_vaccine_1956.jpg",
+   "lisans": "No known restrictions",
+   "atif": null,
+   "indirme": "2026-10-22",
+   "adres_dogrulandi": false
+  },
+  "src/10_asi_cocuk_1958.jpg": {
+   "aciklama": "Aşılama, İsrail 1958",
+   "kaynak": "Wikimedia Commons: Polio Vaccination.jpg",
+   "adres": "https://commons.wikimedia.org/wiki/File:Polio_Vaccination.jpg",
+   "lisans": "Public domain",
+   "atif": null,
+   "indirme": "2026-10-22",
+   "adres_dogrulandi": true
+  },
+  "src/11_gazete_manset_1955.jpg": {
+   "aciklama": "Salk aşısı manşetleri, 1955",
+   "kaynak": "March of Dimes",
+   "adres": "https://commons.wikimedia.org/wiki/File:Salk_headlines.jpg",
+   "lisans": "Public domain",
+   "atif": null,
+   "indirme": "2026-10-22",
+   "adres_dogrulandi": true
+  },
+  "src/12_muhabir_murrow_1953.jpg": {
+   "aciklama": "Edward R. Murrow, 1953",
+   "kaynak": "Wikimedia Commons",
+   "adres": "https://commons.wikimedia.org/wiki/File:Edward_R._Murrow_1953.jpg",
+   "lisans": "Public domain",
+   "atif": null,
+   "indirme": "2026-10-22",
+   "adres_dogrulandi": true
+  },
+  "src/13_salk_havalimani_1959.jpg": {
+   "aciklama": "Jonas Salk, 1959",
+   "kaynak": "SAS Scandinavian Airlines",
+   "adres": "https://commons.wikimedia.org/wiki/File:Jonas_Salk_1959.jpg",
+   "lisans": "Public domain",
+   "atif": null,
+   "indirme": "2026-10-22",
+   "adres_dogrulandi": false
+  },
+  "src/14_salk_1988.jpg": {
+   "aciklama": "Jonas Salk, 1988",
+   "kaynak": "CDC PHIL 7356",
+   "adres": "https://commons.wikimedia.org/wiki/File:Jonas_Salk_1988.jpg",
+   "lisans": "Public domain",
+   "atif": null,
+   "indirme": "2026-10-22",
+   "adres_dogrulandi": true
+  },
+  "src/15_sabin_portre.jpg": {
+   "aciklama": "Albert Sabin",
+   "kaynak": "CDC / Emerging Infectious Diseases",
+   "adres": "https://commons.wikimedia.org/wiki/File:Albert_Bruce_Sabin_in_EID_Journal.jpg",
+   "lisans": "Public domain",
+   "atif": null,
+   "indirme": "2026-10-22",
+   "adres_dogrulandi": true
+  },
+  "src/16_rackham_annarbor.jpg": {
+   "aciklama": "Rackham Binası, Ann Arbor (2015, günümüz)",
+   "kaynak": "Wikimedia Commons",
+   "adres": "https://commons.wikimedia.org/wiki/File:Rackham_School_of_Graduate_Studies_at_UM_Ann_Arbor_2015.jpg",
+   "lisans": "CC0",
+   "atif": null,
+   "indirme": "2026-10-22",
+   "adres_dogrulandi": true
+  },
+  "src/17_gunes_nasa.jpg": {
+   "aciklama": "Güneş (SDO)",
+   "kaynak": "NASA Goddard / SDO",
+   "adres": "https://commons.wikimedia.org/wiki/File:Massive_X-Class_Flare_Released_on_June_6_(full_disk)_-_Flickr_-_NASA_Goddard_Photo_and_Video.jpg",
+   "lisans": "Public domain",
+   "atif": null,
+   "indirme": "2026-10-22",
+   "adres_dogrulandi": true
+  },
+  "src/18_dunya_nasa.jpg": {
+   "aciklama": "Dünya dokusu (Blue Marble)",
+   "kaynak": "NASA Visible Earth",
+   "adres": "https://commons.wikimedia.org/wiki/File:Land_shallow_topo_2048.jpg",
+   "lisans": "Public domain",
+   "atif": null,
+   "indirme": "2026-10-22",
+   "adres_dogrulandi": true
+  },
+  "src/19_fdr_tekerlekli_1941.jpg": {
+   "aciklama": "Roosevelt tekerlekli sandalyede, Şubat 1941",
+   "kaynak": "FDR Library 73113:61 (Margaret Suckley)",
+   "adres": "https://commons.wikimedia.org/wiki/File:Roosevelt_in_a_wheelchair.jpg",
+   "lisans": "Public domain",
+   "atif": null,
+   "indirme": "2026-10-23",
+   "adres_dogrulandi": true
+  },
+  "src/20_salk_sabin_1958.jpg": {
+   "aciklama": "Çocuk Felci Onur Galerisi açılışı, 2 Ocak 1958",
+   "kaynak": "NARA 196188",
+   "adres": "https://commons.wikimedia.org/wiki/File:Eleanor_Roosevelt,_Albert_Sabin,_Jonas_Salk,_and_Basil_O'Connor_at_The_Infantile_Paralysis_Hall_of_Fame_in_Warm..._-_NARA_-_196188.jpg",
+   "lisans": "Public domain",
+   "atif": null,
+   "indirme": "2026-10-23",
+   "adres_dogrulandi": true
+  },
+  "src/21_demir_ciger_kogus.jpg": {
+   "aciklama": "Demir akciğer koğuşu",
+   "kaynak": "U.S. FDA",
+   "adres": "https://commons.wikimedia.org/wiki/File:Iron_Lung_(061)_(7184148409).jpg",
+   "lisans": "Public domain",
+   "atif": null,
+   "indirme": "2026-10-23",
+   "adres_dogrulandi": true
+  },
+  "src/22_march_of_dimes_1948.jpg": {
+   "aciklama": "March of Dimes kampanyası, Washington, 14 Ocak 1948",
+   "kaynak": "NARA 199646 (Abbie Rowe)",
+   "adres": "https://commons.wikimedia.org/wiki/File:Margaret_Truman_in_downtown_Washington,_D._C._with_Terry_Tullos,_the_three_year_old_poster_boy_for_the_March_of..._-_NARA_-_199646.tif",
+   "lisans": "Public domain",
+   "atif": null,
+   "indirme": "2026-10-23",
+   "adres_dogrulandi": true
+  },
+  "src/23_felcli_bacak_cdc.jpg": {
+   "aciklama": "Felçli bacak (günümüz, ABD dışı) — KULLANILMIYOR",
+   "kaynak": "CDC PHIL",
+   "adres": "https://commons.wikimedia.org/wiki/File:Polio_lores134.jpg",
+   "lisans": "Public domain",
+   "atif": null,
+   "indirme": "2026-10-23",
+   "adres_dogrulandi": true
+  },
+  "src/24_fdr_warm_springs_1925.jpg": {
+   "aciklama": "Roosevelt ve üç hasta, Warm Springs 1925",
+   "kaynak": "NARA 195585",
+   "adres": "https://commons.wikimedia.org/wiki/File:FDR-and-three-polio-patients-Warm-Springs-1925.jpg",
+   "lisans": "Public domain",
+   "atif": null,
+   "indirme": "2026-10-23",
+   "adres_dogrulandi": true
+  },
+  "src/25_hew_rapor_1955.jpg": {
+   "aciklama": "Aşı dağıtımı raporu taslağı, Temmuz 1955",
+   "kaynak": "HEW / DPLA",
+   "adres": "https://commons.wikimedia.org/w/index.php?search=Supplemental+Report+to+the+President+Salk+Vaccine",
+   "lisans": "Public domain",
+   "atif": null,
+   "indirme": "2026-10-23",
+   "adres_dogrulandi": false
+  },
+  "src/logo.png": {
+   "aciklama": "Beyin Kodu Lab logosu",
+   "kaynak": "Kanal sahibi",
+   "adres": "",
+   "lisans": "Kanala ait",
+   "atif": null,
+   "indirme": "2026-10-23",
+   "adres_dogrulandi": true
+  },
+  "src/map/us.svg": {
+   "aciklama": "ABD haritası (eyaletler)",
+   "kaynak": "Wikimedia Commons: Blank US Map (states only)",
+   "adres": "https://commons.wikimedia.org/wiki/File:Blank_US_Map_(states_only).svg",
+   "lisans": "CC0",
+   "atif": null,
+   "indirme": "2026-10-23",
+   "adres_dogrulandi": true
+  },
+  "mask06.png": {
+   "aciklama": "06 portresinden türetilmiş derinlik maskesi (kanal üretimi)",
+   "kaynak": "SAS Scandinavian Airlines",
+   "adres": "https://commons.wikimedia.org/wiki/File:Jonas_Salk_1959.jpg",
+   "lisans": "Public domain",
+   "atif": null,
+   "indirme": "2026-10-22",
+   "adres_dogrulandi": false,
+   "turetilen": "src/06_salk_portre_1959.jpg"
+  }
+ }
+}

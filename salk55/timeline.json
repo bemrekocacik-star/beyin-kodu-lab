@@ -1,0 +1,2709 @@
+{
+ "project": "Jonas Salk Gunesin Patenti",
+ "fps": 24,
+ "width": 1920,
+ "height": 1080,
+ "explicitTiming": true,
+ "timingSource": "TAHMİN (ses yok)",
+ "map_dir": "src/map",
+ "scenes": [
+  {
+   "type": "year_card",
+   "visualType": "dataGraphic",
+   "params": {
+    "year": "1955",
+    "kicker": "12 NİSAN"
+   },
+   "purpose": "Kanca: tarih",
+   "narrationText": "On iki Nisan, bin dokuz yüz elli beş.",
+   "id": "s01_year_card",
+   "transitionIn": {
+    "type": "none",
+    "dur": 0
+   },
+   "start": 0.0,
+   "end": 3.62
+  },
+  {
+   "type": "archival_push",
+   "visualType": "archival",
+   "visualAssets": [
+    "src/12_muhabir_murrow_1953.jpg"
+   ],
+   "caption": "ARŞİV · Edward R. Murrow, 1953 · Public domain",
+   "params": {
+    "grade": "bw_cool",
+    "z0": 1.05,
+    "z1": 1.16,
+    "x0": 0.02,
+    "x1": -0.03
+   },
+   "purpose": "Atmosfer: canlı yayın",
+   "narrationText": "Amerika'da milyonlarca insan televizyonun başında.",
+   "id": "s02_archival_push",
+   "transitionIn": {
+    "type": "crossfade",
+    "dur": 0.45
+   },
+   "start": 3.17,
+   "end": 6.645
+  },
+  {
+   "type": "spotlight",
+   "visualType": "archival",
+   "visualAssets": [
+    "src/12_muhabir_murrow_1953.jpg"
+   ],
+   "caption": "ARŞİV · Edward R. Murrow, 1953 · Public domain",
+   "params": {
+    "grade": "bw_cool",
+    "focus": [
+     0.4,
+     0.3
+    ],
+    "zoom": 1.4,
+    "target": [
+     760,
+     470
+    ],
+    "radius": 150,
+    "label": "Edward R. Murrow",
+    "sub": "Gazeteci · CBS",
+    "label_xy": [
+     1060,
+     300
+    ]
+   },
+   "purpose": "Kişi tanıtımı",
+   "narrationText": "Ünlü gazeteci Edward Murrow, kırk yaşındaki bir doktora basit bir soru soruyor:",
+   "id": "s03_spotlight",
+   "transitionIn": {
+    "type": "crossfade",
+    "dur": 0.45
+   },
+   "start": 6.195,
+   "end": 11.645
+  },
+  {
+   "type": "quote",
+   "visualType": "archival",
+   "visualAssets": [
+    "src/12_muhabir_murrow_1953.jpg"
+   ],
+   "caption": "ARŞİV · Edward R. Murrow, 1953 · Public domain",
+   "params": {
+    "quote": "Bu aşının patenti\nkime ait?",
+    "highlight": [
+     1
+    ],
+    "who": "Edward R. Murrow, 12 Nisan 1955",
+    "size": 78
+   },
+   "noSubs": true,
+   "purpose": "Merak sorusu",
+   "narrationText": "\"Bu aşının patenti kime ait?\"",
+   "id": "s04_quote",
+   "transitionIn": {
+    "type": "crossfade",
+    "dur": 0.45
+   },
+   "start": 11.195,
+   "end": 13.335
+  },
+  {
+   "type": "archival_push",
+   "visualType": "archival",
+   "visualAssets": [
+    "src/07_salk_candid.jpg"
+   ],
+   "caption": "ARŞİV · Jonas Salk, 1959 · SAS, Public domain",
+   "params": {
+    "z0": 1.04,
+    "z1": 1.2,
+    "x0": 0.0,
+    "x1": -0.02,
+    "y0": 0.02,
+    "y1": 0.0
+   },
+   "purpose": "Gerilim: sessiz an",
+   "narrationText": "Doktorun vereceği cevap, tarihe geçecekti.",
+   "id": "s05_archival_push",
+   "transitionIn": {
+    "type": "crossfade",
+    "dur": 0.45
+   },
+   "start": 12.885,
+   "end": 16.075
+  },
+  {
+   "type": "money",
+   "visualType": "dataGraphic",
+   "visualAssets": [
+    "src/13_salk_havalimani_1959.jpg"
+   ],
+   "params": {
+    "value": 7000000000,
+    "label": "BAZI TAHMİNLERE GÖRE (FORBES)"
+   },
+   "caption": "ARŞİV · Jonas Salk, 1959 · SAS, Public domain",
+   "purpose": "Çarpıcı iddia (sonra sorgulanacak)",
+   "narrationText": "Ve verdiği cevapla, bazı tahminlere göre yedi milyar dolarlık bir serveti masada bıraktığı söyleniyor.",
+   "id": "s06_money",
+   "transitionIn": {
+    "type": "crossfade",
+    "dur": 0.45
+   },
+   "start": 15.625,
+   "end": 22.28
+  },
+  {
+   "type": "chapter",
+   "visualType": "dataGraphic",
+   "params": {
+    "num": "BEYİN KODU LAB · BELGESEL",
+    "title": "GÜNEŞİN PATENTİ",
+    "sub": "Jonas Salk ve çocuk felci aşısı",
+    "size": 112
+   },
+   "visualAssets": [
+    "src/06_salk_portre_1959.jpg"
+   ],
+   "noSubs": false,
+   "purpose": "Başlık ve vaat",
+   "narrationText": "Bu, o cevabın hikâyesi. Sonunda bu ünlü cevabın pek bilinmeyen bir yüzünü de göreceğiz. Ama önce, o cevabı bu kadar değerli yapan korkuyu anlamamız gerekiyor.",
+   "id": "s07_chapter",
+   "transitionIn": {
+    "type": "crossfade",
+    "dur": 0.45
+   },
+   "start": 21.83,
+   "end": 33.185
+  },
+  {
+   "type": "chapter",
+   "visualType": "dataGraphic",
+   "visualAssets": [
+    "src/04_demir_ciger_hasta.jpg"
+   ],
+   "params": {
+    "num": "BÖLÜM 1",
+    "title": "KORKU",
+    "sub": "Amerika, 1952",
+    "total": 6,
+    "index": 0
+   },
+   "noSubs": true,
+   "transitionIn": {
+    "type": "dip",
+    "dur": 0.5
+   },
+   "purpose": "Bölüm 1 geçişi: nefes anı",
+   "soundEffects": [
+    {
+     "type": "impact",
+     "t": 0.15,
+     "gain": 0.35,
+     "f0": 46
+    },
+    {
+     "type": "whoosh",
+     "t": 0.1,
+     "gain": 0.06
+    }
+   ],
+   "id": "s08_chapter",
+   "start": 32.685,
+   "end": 35.535
+  },
+  {
+   "type": "map",
+   "visualType": "dataGraphic",
+   "params": {
+    "spread": {
+     "t0": 1.0,
+     "t1": 5.0,
+     "origin": [
+      820,
+      140
+     ],
+     "value": 57628,
+     "kicker": "1952 SALGINI",
+     "label": "çocuk felci vakası · ABD"
+    },
+    "extrude": 7,
+    "tilt": [
+     0,
+     1,
+     0.3,
+     2.8
+    ],
+    "cy": 610,
+    "cam": [
+     [
+      0,
+      500,
+      300,
+      0.95
+     ],
+     [
+      8,
+      470,
+      320,
+      1.05
+     ]
+    ]
+   },
+   "soundEffects": [
+    {
+     "type": "riser",
+     "t": 5.0,
+     "dur": 3.5,
+     "gain": 0.06
+    }
+   ],
+   "purpose": "İlk veri: salgının yayılımı",
+   "narrationText": "Bin dokuz yüz elli iki. Amerika, tarihinin en büyük çocuk felci salgınını yaşıyor. Tek bir yılda yaklaşık elli sekiz bin vaka.",
+   "id": "s09_map",
+   "transitionIn": {
+    "type": "crossfade",
+    "dur": 0.45
+   },
+   "start": 35.085,
+   "end": 43.925
+  },
+  {
+   "type": "stats",
+   "visualType": "dataGraphic",
+   "visualAssets": [
+    "src/05_demir_ciger_makine.jpg"
+   ],
+   "params": {
+    "kicker": "1952 · ABD",
+    "items": [
+     [
+      3145,
+      "ÖLÜM",
+      "red"
+     ],
+     [
+      21269,
+      "FELÇ",
+      "red"
+     ]
+    ],
+    "note": "Kaynak: History of polio"
+   },
+   "purpose": "Bedel",
+   "narrationText": "Üç binden fazla ölüm. Yirmi bir binden fazla insan, ömrünün geri kalanını felçle geçirecek.",
+   "id": "s10_stats",
+   "transitionIn": {
+    "type": "crossfade",
+    "dur": 0.45
+   },
+   "start": 43.475,
+   "end": 49.89
+  },
+  {
+   "type": "spotlight",
+   "visualType": "archival",
+   "visualAssets": [
+    "src/03_cocuklar_fizik_tedavi.jpg"
+   ],
+   "caption": "ARŞİV · Fizik tedavi gören çocuklar · CDC, Public domain",
+   "params": {
+    "focus": [
+     0.33,
+     0.62
+    ],
+    "zoom": 1.35,
+    "target": [
+     760,
+     560
+    ],
+    "radius": 170,
+    "label": "Kim olacağı bilinmiyordu",
+    "label_xy": [
+     1060,
+     360
+    ]
+   },
+   "purpose": "Belirsizlik korkusu",
+   "narrationText": "Hastalığın en korkutucu yanı, kimi seçeceğinin bilinmemesiydi.",
+   "id": "s11_spotlight",
+   "transitionIn": {
+    "type": "crossfade",
+    "dur": 0.45
+   },
+   "start": 49.44,
+   "end": 53.7
+  },
+  {
+   "type": "compare",
+   "visualType": "dataGraphic",
+   "params": {
+    "left": {
+     "kicker": "SABAH",
+     "title": "Okula\nkoşuyor",
+     "body": "Her şey normal.",
+     "who": ""
+    },
+    "right": {
+     "kicker": "AKŞAM",
+     "title": "Yürüyemiyor",
+     "body": "Bacaklar tutmuyor.",
+     "who": ""
+    }
+   },
+   "purpose": "Ani dönüşüm",
+   "narrationText": "Sabah koşarak okula giden bir çocuk, akşam yürüyemez hâle gelebiliyordu.",
+   "id": "s12_compare",
+   "transitionIn": {
+    "type": "crossfade",
+    "dur": 0.45
+   },
+   "start": 53.25,
+   "end": 58.215
+  },
+  {
+   "type": "spotlight",
+   "visualType": "archival",
+   "visualAssets": [
+    "src/05_demir_ciger_makine.jpg"
+   ],
+   "caption": "ARŞİV · Demir akciğer · CDC, Public domain",
+   "params": {
+    "focus": [
+     0.3,
+     0.45
+    ],
+    "zoom": 1.25,
+    "target": [
+     720,
+     520
+    ],
+    "radius": 190,
+    "label": "DEMİR AKCİĞER",
+    "sub": "Nefes almayı makine sağlıyordu",
+    "label_xy": [
+     1040,
+     300
+    ]
+   },
+   "purpose": "Somut korku nesnesi",
+   "narrationText": "Bazı hastalar nefes bile alamıyordu. Onlar için tek çare, demir akciğer denen dev metal makinelerdi.",
+   "id": "s13_spotlight",
+   "transitionIn": {
+    "type": "crossfade",
+    "dur": 0.45
+   },
+   "start": 57.765,
+   "end": 64.67
+  },
+  {
+   "type": "archival_push",
+   "visualType": "archival",
+   "visualAssets": [
+    "src/21_demir_ciger_kogus.jpg"
+   ],
+   "caption": "ARŞİV · Demir akciğer koğuşu · FDA, Public domain",
+   "params": {
+    "z0": 1.04,
+    "z1": 1.16,
+    "x0": 0.03,
+    "x1": -0.03
+   },
+   "purpose": "Yaygınlık",
+   "narrationText": "Hastane koridorları bu makinelerle doluydu.",
+   "id": "s14_archival_push",
+   "transitionIn": {
+    "type": "crossfade",
+    "dur": 0.45
+   },
+   "start": 64.22,
+   "end": 67.38
+  },
+  {
+   "type": "archival_kinetic",
+   "visualType": "archival",
+   "visualAssets": [
+    "src/01_karantina_karti.jpg"
+   ],
+   "caption": "ARŞİV · Çocuk felci karantina kartı · Public domain",
+   "params": {
+    "grade": "bw_cool",
+    "lines": [
+     [
+      "Yazlar korku mevsimine dönüştü.",
+      "small",
+      0.3
+     ],
+     [
+      "HAVUZLAR KAPANDI",
+      "big",
+      1.6
+     ],
+     [
+      "Sinemalar boşaldı.",
+      "small",
+      2.6
+     ]
+    ]
+   },
+   "noSubs": true,
+   "purpose": "Günlük hayatın çöküşü",
+   "narrationText": "Yazlar korku mevsimine dönüştü. Yüzme havuzları kapandı, sinemalar boşaldı.",
+   "id": "s15_archival_kinetic",
+   "transitionIn": {
+    "type": "crossfade",
+    "dur": 0.45
+   },
+   "start": 66.93,
+   "end": 72.2
+  },
+  {
+   "type": "archival_push",
+   "visualType": "archival",
+   "visualAssets": [
+    "src/04_demir_ciger_hasta.jpg"
+   ],
+   "caption": "ARŞİV · Demir akciğerde tedavi gören hasta · NMHM, CC BY 2.0",
+   "params": {
+    "z0": 1.3,
+    "z1": 1.42,
+    "x0": 0.1,
+    "x1": 0.06,
+    "y0": 0.02,
+    "y1": 0.0
+   },
+   "purpose": "Duygu: anne",
+   "narrationText": "Anneler çocuklarını sokağa çıkarmaya korkuyordu.",
+   "id": "s16_archival_push",
+   "transitionIn": {
+    "type": "crossfade",
+    "dur": 0.45
+   },
+   "start": 71.75,
+   "end": 75.135
+  },
+  {
+   "type": "archival_push",
+   "visualType": "archival",
+   "visualAssets": [
+    "src/24_fdr_warm_springs_1925.jpg"
+   ],
+   "caption": "ARŞİV · Roosevelt ve üç çocuk felci hastası, Warm Springs 1925 · NARA, Public domain",
+   "params": {
+    "z0": 1.12,
+    "z1": 1.02,
+    "x0": 0.04,
+    "x1": 0.0
+   },
+   "purpose": "Güçlüler bile (arşiv)",
+   "narrationText": "Bu hastalık güçlüleri bile ayırt etmiyordu.",
+   "id": "s17_archival_push",
+   "transitionIn": {
+    "type": "crossfade",
+    "dur": 0.45
+   },
+   "start": 74.685,
+   "end": 77.93
+  },
+  {
+   "type": "photo_card",
+   "visualType": "archival",
+   "visualAssets": [
+    "src/19_fdr_tekerlekli_1941.jpg"
+   ],
+   "caption": "ARŞİV · Roosevelt tekerlekli sandalyede, 1941 · FDR Kütüphanesi, Public domain",
+   "params": {
+    "side": "right",
+    "kicker": "32. ABD BAŞKANI",
+    "title": "Franklin D.\nRoosevelt",
+    "sub": "1921: 39 yaşında çocuk felci",
+    "grade": "bw_cool",
+    "z0": 0.86,
+    "z1": 0.92
+   },
+   "purpose": "Güçlüler bile",
+   "narrationText": "Franklin Roosevelt, otuz dokuz yaşında çocuk felcine yakalanmış ve bir daha yardımsız yürüyememişti.",
+   "id": "s18_photo_card",
+   "transitionIn": {
+    "type": "crossfade",
+    "dur": 0.45
+   },
+   "start": 77.48,
+   "end": 83.96
+  },
+  {
+   "type": "archival_push",
+   "visualType": "archival",
+   "visualAssets": [
+    "src/22_march_of_dimes_1948.jpg"
+   ],
+   "caption": "ARŞİV · March of Dimes bağış kampanyası, Washington 1948 · NARA, Public domain",
+   "params": {
+    "z0": 1.05,
+    "z1": 1.17,
+    "x0": -0.02,
+    "x1": 0.02
+   },
+   "purpose": "Halkın seferberliği (arşiv)",
+   "narrationText": "Kurduğu vakıf, halktan küçük bağışlar topluyordu.",
+   "id": "s19_archival_push",
+   "transitionIn": {
+    "type": "crossfade",
+    "dur": 0.45
+   },
+   "start": 83.51,
+   "end": 87.1
+  },
+  {
+   "type": "coins",
+   "visualType": "dataGraphic",
+   "params": {
+    "kicker": "FRANKLIN D. ROOSEVELT · 1938",
+    "title": "Milyonlarca\nbozuk para",
+    "sub": "Halk, zarflara birer onluk koyup gönderdi."
+   },
+   "purpose": "Toplumsal umut",
+   "narrationText": "İnsanlar zarflara birer onluk koyup gönderiyordu. Milyonlarca bozuk para, tek bir umut için birikiyordu.",
+   "id": "s20_coins",
+   "transitionIn": {
+    "type": "crossfade",
+    "dur": 0.45
+   },
+   "start": 86.65,
+   "end": 93.65,
+   "soundEffects": [
+    {
+     "type": "tick",
+     "t": 0.5,
+     "gain": 0.45
+    },
+    {
+     "type": "tick",
+     "t": 0.533,
+     "gain": 0.45
+    },
+    {
+     "type": "tick",
+     "t": 0.6,
+     "gain": 0.45
+    },
+    {
+     "type": "tick",
+     "t": 0.703,
+     "gain": 0.45
+    },
+    {
+     "type": "tick",
+     "t": 0.845,
+     "gain": 0.45
+    },
+    {
+     "type": "tick",
+     "t": 1.029,
+     "gain": 0.45
+    },
+    {
+     "type": "tick",
+     "t": 1.292,
+     "gain": 0.45
+    },
+    {
+     "type": "tick",
+     "t": 1.607,
+     "gain": 0.45
+    },
+    {
+     "type": "tick",
+     "t": 2.013,
+     "gain": 0.45
+    },
+    {
+     "type": "tick",
+     "t": 2.477,
+     "gain": 0.45
+    },
+    {
+     "type": "tick",
+     "t": 3.043,
+     "gain": 0.45
+    },
+    {
+     "type": "tick",
+     "t": 3.716,
+     "gain": 0.45
+    },
+    {
+     "type": "tick",
+     "t": 4.503,
+     "gain": 0.45
+    }
+   ]
+  },
+  {
+   "type": "archival_push",
+   "visualType": "archival",
+   "visualAssets": [
+    "src/06_salk_portre_1959.jpg"
+   ],
+   "caption": "ARŞİV · Jonas Salk, 1959 · SAS, Public domain",
+   "params": {
+    "grade": "bw_cool",
+    "z0": 1.45,
+    "z1": 1.15,
+    "x0": 0.06,
+    "x1": 0.02,
+    "y0": 0.05,
+    "y1": 0.02
+   },
+   "purpose": "Köprü: kahramanın gölgesi (merak)",
+   "narrationText": "Ama bu umudu gerçeğe dönüştürecek kişi, o yıllarda henüz kimsenin tanımadığı genç bir doktordu.",
+   "id": "s21_archival_push",
+   "transitionIn": {
+    "type": "crossfade",
+    "dur": 0.45
+   },
+   "start": 93.2,
+   "end": 100.195
+  },
+  {
+   "type": "chapter",
+   "visualType": "dataGraphic",
+   "visualAssets": [
+    "src/02_virus_mikroskop.jpg"
+   ],
+   "params": {
+    "num": "BÖLÜM 2",
+    "title": "AYKIRI FİKİR",
+    "sub": "Pittsburgh, 1947",
+    "total": 6,
+    "index": 1
+   },
+   "noSubs": true,
+   "transitionIn": {
+    "type": "dip",
+    "dur": 0.5
+   },
+   "purpose": "Bölüm 2 geçişi: nefes anı",
+   "soundEffects": [
+    {
+     "type": "impact",
+     "t": 0.15,
+     "gain": 0.35,
+     "f0": 46
+    },
+    {
+     "type": "whoosh",
+     "t": 0.1,
+     "gain": 0.06
+    }
+   ],
+   "id": "s22_chapter",
+   "start": 99.695,
+   "end": 102.545
+  },
+  {
+   "type": "microscope",
+   "visualType": "archival",
+   "visualAssets": [
+    "src/02_virus_mikroskop.jpg"
+   ],
+   "caption": "ARŞİV · Poliovirüs, elektron mikroskobu · CDC, Public domain",
+   "params": {
+    "title": "PITTSBURGH ÜNİVERSİTESİ",
+    "sub": "Virüs Araştırma Laboratuvarı",
+    "hud": "POLİOVİRÜS · ELEKTRON MİKROSKOBU"
+   },
+   "purpose": "Mekân",
+   "narrationText": "Bu umudun adresi, Pittsburgh'daki bir laboratuvardı.",
+   "id": "s23_microscope",
+   "transitionIn": {
+    "type": "crossfade",
+    "dur": 0.45
+   },
+   "start": 102.095,
+   "end": 105.82
+  },
+  {
+   "type": "portrait_parallax",
+   "visualType": "archival",
+   "visualAssets": [
+    "src/06_salk_portre_1959.jpg",
+    "mask06.png"
+   ],
+   "caption": "ARŞİV · Jonas Salk, 1959 · SAS, Public domain",
+   "params": {
+    "name": "JONAS SALK",
+    "sub": "Virolog · 1914, New York"
+   },
+   "noSubs": true,
+   "purpose": "Kahraman tanıtımı",
+   "narrationText": "Jonas Salk, New York'ta yoksul bir ailenin çocuğuydu.",
+   "id": "s24_portrait_parallax",
+   "transitionIn": {
+    "type": "crossfade",
+    "dur": 0.45
+   },
+   "start": 105.37,
+   "end": 109.31
+  },
+  {
+   "type": "archival_push",
+   "visualType": "archival",
+   "visualAssets": [
+    "src/13_salk_havalimani_1959.jpg"
+   ],
+   "caption": "ARŞİV · Jonas Salk, 1959 · SAS, Public domain",
+   "params": {
+    "z0": 1.05,
+    "z1": 1.14,
+    "x0": 0.03,
+    "x1": -0.01
+   },
+   "purpose": "Rahat yol",
+   "narrationText": "Tıp fakültesini bitirdiğinde önünde rahat bir hekimlik kariyeri vardı.",
+   "id": "s25_archival_push",
+   "transitionIn": {
+    "type": "crossfade",
+    "dur": 0.45
+   },
+   "start": 108.86,
+   "end": 113.575
+  },
+  {
+   "type": "archival_kinetic",
+   "visualType": "archival",
+   "visualAssets": [
+    "src/07_salk_candid.jpg"
+   ],
+   "caption": "ARŞİV · Jonas Salk, 1959 · SAS, Public domain",
+   "params": {
+    "grade": "bw_cool",
+    "lines": [
+     [
+      "Hastaları tek tek değil,",
+      "small",
+      0.3
+     ],
+     [
+      "HASTALIĞI KÖKÜNDEN",
+      "big",
+      1.6
+     ],
+     [
+      "durdurmayı seçti.",
+      "small",
+      2.6
+     ]
+    ]
+   },
+   "noSubs": true,
+   "purpose": "Karakter seçimi",
+   "narrationText": "Ama o, hastaları tek tek tedavi etmek yerine, hastalığı kökünden durdurmayı seçti.",
+   "id": "s26_archival_kinetic",
+   "transitionIn": {
+    "type": "crossfade",
+    "dur": 0.45
+   },
+   "start": 113.125,
+   "end": 118.79
+  },
+  {
+   "type": "map",
+   "visualType": "dataGraphic",
+   "params": {
+    "title": "JONAS SALK'IN YOLU",
+    "terrain": true,
+    "tilt": 1.0,
+    "cy": 620,
+    "highlight": [
+     {
+      "state": "pa",
+      "t": 1.6
+     }
+    ],
+    "pins": [
+     {
+      "city": "ny",
+      "label": "New York",
+      "sub": "Doğum · 1914",
+      "t": 0.4,
+      "side": "right"
+     },
+     {
+      "city": "pit",
+      "label": "Pittsburgh",
+      "sub": "Virüs laboratuvarı · 1947",
+      "t": 2.4,
+      "side": "left"
+     }
+    ],
+    "routes": [
+     {
+      "from": "ny",
+      "to": "pit",
+      "t0": 1.2,
+      "t1": 2.4
+     }
+    ],
+    "cam": [
+     [
+      0,
+      700,
+      200,
+      1.6
+     ],
+     [
+      8,
+      760,
+      190,
+      2.4
+     ]
+    ]
+   },
+   "purpose": "Yolculuk",
+   "narrationText": "Bin dokuz yüz kırk yedide Pittsburgh Üniversitesi'nde kendi virüs laboratuvarının başına geçti.",
+   "id": "s27_map",
+   "transitionIn": {
+    "type": "crossfade",
+    "dur": 0.45
+   },
+   "start": 118.34,
+   "end": 124.435
+  },
+  {
+   "type": "question",
+   "visualType": "reconstruction",
+   "params": {
+    "bg3d": "virus",
+    "kicker": "AYKIRI BİR FİKİR",
+    "question": "Ölü bir virüs\nkoruyabilir mi?"
+   },
+   "noSubs": true,
+   "purpose": "Merak (yeniden kanca)",
+   "narrationText": "Ve dönemin pek çok bilim insanının yanlış bulduğu bir fikre inandı.",
+   "id": "s28_question",
+   "transitionIn": {
+    "type": "crossfade",
+    "dur": 0.45
+   },
+   "start": 123.985,
+   "end": 128.735
+  },
+  {
+   "type": "compare",
+   "visualType": "dataGraphic",
+   "params": {
+    "left": {
+     "kicker": "YAYGIN GÖRÜŞ",
+     "title": "Canlı ama\nzayıf virüs",
+     "body": "Kalıcı bağışıklık için\nvirüs canlı olmalı.",
+     "who": "ALBERT SABIN"
+    },
+    "right": {
+     "kicker": "AYKIRI FİKİR",
+     "title": "Tamamen\nölü virüs",
+     "body": "Formaldehitle öldürülmüş virüs\nkimseyi hasta edemez.",
+     "who": "JONAS SALK"
+    },
+    "viz": "virus"
+   },
+   "purpose": "Çatışma",
+   "narrationText": "O yıllardaki yaygın görüş şuydu: Kalıcı bağışıklık için vücuda canlı ama zayıflatılmış virüs verilmeliydi. Salk ise farklı düşünüyordu.",
+   "id": "s29_compare",
+   "transitionIn": {
+    "type": "crossfade",
+    "dur": 0.45
+   },
+   "start": 128.285,
+   "end": 137.205
+  },
+  {
+   "type": "virus3d",
+   "visualType": "reconstruction",
+   "params": {
+    "title": "Ölü virüs",
+    "sub": "Formaldehitle etkisiz hâle getirildi",
+    "hud": "POLİOVİRÜS",
+    "dead_t": 1.76
+   },
+   "purpose": "Bilimsel fikir (temsili)",
+   "narrationText": "Virüsü formaldehitle tamamen öldürürse, vücut yine de onu tanımayı öğrenebilirdi. Üstelik ölü bir virüs, kimseyi hasta edemezdi.",
+   "id": "s30_virus3d",
+   "transitionIn": {
+    "type": "crossfade",
+    "dur": 0.45
+   },
+   "start": 136.755,
+   "end": 145.165
+  },
+  {
+   "type": "photo_card",
+   "visualType": "archival",
+   "visualAssets": [
+    "src/15_sabin_portre.jpg"
+   ],
+   "caption": "ARŞİV · Albert Sabin · CDC (EID Journal), Public domain",
+   "params": {
+    "side": "right",
+    "kicker": "EN GÜÇLÜ RAKİP",
+    "title": "Albert\nSabin",
+    "sub": "Canlı (zayıflatılmış) virüs aşısını savundu",
+    "grade": "bw_cool",
+    "z0": 0.86,
+    "z1": 0.92
+   },
+   "purpose": "Karşı güç",
+   "narrationText": "En güçlü rakibi Albert Sabin, ölü virüsle kalıcı koruma sağlanamayacağını savunuyordu. Salk geri adım atmadı.",
+   "id": "s31_photo_card",
+   "transitionIn": {
+    "type": "crossfade",
+    "dur": 0.45
+   },
+   "start": 144.715,
+   "end": 152.025
+  },
+  {
+   "type": "archival_push",
+   "visualType": "archival",
+   "visualAssets": [
+    "src/07_salk_candid.jpg"
+   ],
+   "caption": "ARŞİV · Jonas Salk, 1959 · SAS, Public domain",
+   "params": {
+    "z0": 1.1,
+    "z1": 1.22,
+    "x0": -0.02,
+    "x1": 0.02
+   },
+   "purpose": "Sonuç: aşı hazır",
+   "narrationText": "Laboratuvarında yıllar süren deneylerin sonunda, işe yarayacağına inandığı bir aşı vardı.",
+   "id": "s32_archival_push",
+   "transitionIn": {
+    "type": "crossfade",
+    "dur": 0.45
+   },
+   "start": 151.575,
+   "end": 157.39
+  },
+  {
+   "type": "archival_kinetic",
+   "visualType": "archival",
+   "visualAssets": [
+    "src/10_asi_cocuk_1958.jpg"
+   ],
+   "caption": "ARŞİV · Çocuk felci aşısı, İsrail 1958 · Public domain",
+   "params": {
+    "grade": "bw_cool",
+    "lines": [
+     [
+      "Kanıtlamanın tek yolu:",
+      "small",
+      0.3
+     ],
+     [
+      "BİR İNSANA YAPMAK",
+      "big",
+      3.56
+     ]
+    ]
+   },
+   "noSubs": true,
+   "purpose": "Uçurum: risk (merak)",
+   "narrationText": "Ama bunu kanıtlamanın tek bir yolu vardı: Aşıyı bir insana yapmak.",
+   "id": "s33_archival_kinetic",
+   "transitionIn": {
+    "type": "crossfade",
+    "dur": 0.45
+   },
+   "start": 156.94,
+   "end": 162.55
+  },
+  {
+   "type": "chapter",
+   "visualType": "dataGraphic",
+   "visualAssets": [
+    "src/21_demir_ciger_kogus.jpg"
+   ],
+   "params": {
+    "num": "BÖLÜM 3",
+    "title": "EN BÜYÜK RİSK",
+    "sub": "1953",
+    "total": 6,
+    "index": 2
+   },
+   "noSubs": true,
+   "transitionIn": {
+    "type": "dip",
+    "dur": 0.5
+   },
+   "purpose": "Bölüm 3 geçişi: nefes anı",
+   "soundEffects": [
+    {
+     "type": "impact",
+     "t": 0.15,
+     "gain": 0.35,
+     "f0": 46
+    },
+    {
+     "type": "whoosh",
+     "t": 0.1,
+     "gain": 0.06
+    }
+   ],
+   "id": "s34_chapter",
+   "start": 162.05,
+   "end": 164.9
+  },
+  {
+   "type": "question",
+   "visualType": "reconstruction",
+   "params": {
+    "bg3d": "vial",
+    "kicker": "PEKİ...",
+    "question": "Bir aşının güvenli\nolduğundan nasıl\nemin olursunuz?"
+   },
+   "noSubs": true,
+   "purpose": "Merak",
+   "narrationText": "Peki bir aşının güvenli olduğundan nasıl emin olursunuz?",
+   "id": "s35_question",
+   "transitionIn": {
+    "type": "crossfade",
+    "dur": 0.45
+   },
+   "start": 164.45,
+   "end": 168.45
+  },
+  {
+   "type": "family",
+   "visualType": "dataGraphic",
+   "visualAssets": [
+    "src/08_asi_1956_a.jpg"
+   ],
+   "params": {
+    "intro_photo": "src/08_asi_1956_a.jpg",
+    "intro_caption": "ARŞİV · Çocuk felci aşısı, 1956 · Mississippi Dept. of Archives and History",
+    "title": "1953: İLK DENEKLER",
+    "bigyear": "1953",
+    "people": [
+     [
+      "SALK",
+      230,
+      5.24
+     ],
+     [
+      "EŞİ",
+      205,
+      6.785
+     ],
+     [
+      "OĞLU",
+      150,
+      8.235
+     ],
+     [
+      "OĞLU",
+      135,
+      8.485
+     ],
+     [
+      "OĞLU",
+      120,
+      8.735
+     ]
+    ]
+   },
+   "purpose": "Kişisel risk",
+   "narrationText": "Salk'ın cevabı, beklenmeyecek kadar kişiseldi. Bin dokuz yüz elli üçte aşıyı önce kendisine yaptı. Sonra eşine. Sonra da üç oğluna.",
+   "id": "s36_family",
+   "transitionIn": {
+    "type": "crossfade",
+    "dur": 0.45
+   },
+   "start": 168.0,
+   "end": 177.235
+  },
+  {
+   "type": "archival_push",
+   "visualType": "archival",
+   "visualAssets": [
+    "src/06_salk_portre_1959.jpg"
+   ],
+   "caption": "ARŞİV · Jonas Salk, 1959 · SAS, Public domain",
+   "params": {
+    "z0": 1.05,
+    "z1": 1.22,
+    "x0": 0.0,
+    "x1": 0.0,
+    "y0": 0.04,
+    "y1": 0.0
+   },
+   "purpose": "Duygu",
+   "narrationText": "Bir babanın, kendi geliştirdiği aşıyı kendi çocuklarına yapması...",
+   "id": "s37_archival_push",
+   "transitionIn": {
+    "type": "crossfade",
+    "dur": 0.45
+   },
+   "start": 176.785,
+   "end": 181.22
+  },
+  {
+   "type": "quote",
+   "visualType": "archival",
+   "visualAssets": [
+    "src/13_salk_havalimani_1959.jpg"
+   ],
+   "caption": "ARŞİV · Jonas Salk, 1959 · SAS, Public domain",
+   "params": {
+    "quote": "Ben buna\ninanıyorum.",
+    "highlight": [
+     1
+    ],
+    "who": "kararının verdiği mesaj",
+    "size": 84
+   },
+   "noSubs": true,
+   "purpose": "Anlam",
+   "narrationText": "Bu, laboratuvardaki her sayıdan daha güçlü bir mesajdı: \"Ben buna inanıyorum.\"",
+   "id": "s38_quote",
+   "transitionIn": {
+    "type": "crossfade",
+    "dur": 0.45
+   },
+   "start": 180.77,
+   "end": 186.605
+  },
+  {
+   "type": "chapter",
+   "visualType": "dataGraphic",
+   "visualAssets": [
+    "src/09_asi_1956_b.jpg"
+   ],
+   "params": {
+    "num": "BÖLÜM 4",
+    "title": "DEV DENEY",
+    "sub": "1954",
+    "total": 6,
+    "index": 3
+   },
+   "noSubs": true,
+   "transitionIn": {
+    "type": "dip",
+    "dur": 0.5
+   },
+   "purpose": "Bölüm 4 geçişi: nefes anı",
+   "soundEffects": [
+    {
+     "type": "impact",
+     "t": 0.15,
+     "gain": 0.35,
+     "f0": 46
+    },
+    {
+     "type": "whoosh",
+     "t": 0.1,
+     "gain": 0.06
+    }
+   ],
+   "id": "s39_chapter",
+   "start": 186.105,
+   "end": 188.955
+  },
+  {
+   "type": "timeline3d",
+   "visualType": "dataGraphic",
+   "params": {
+    "title": "JONAS SALK",
+    "items": [
+     [
+      "1947",
+      "Pittsburgh",
+      "src/02_virus_mikroskop.jpg"
+     ],
+     [
+      "1952",
+      "Salgın",
+      "src/04_demir_ciger_hasta.jpg"
+     ],
+     [
+      "1953",
+      "Kendine aşı",
+      "src/06_salk_portre_1959.jpg"
+     ],
+     [
+      "1954",
+      "Saha deneyi",
+      "src/09_asi_1956_b.jpg"
+     ],
+     [
+      "1955",
+      "Sonuç",
+      "src/11_gazete_manset_1955.jpg"
+     ],
+     [
+      "1963",
+      "Enstitü",
+      "src/14_salk_1988.jpg"
+     ]
+    ],
+    "active": 3,
+    "from": 2
+   },
+   "purpose": "Neden-sonuç",
+   "narrationText": "Ama inanç yetmezdi. Kanıt gerekiyordu.",
+   "id": "s40_timeline3d",
+   "transitionIn": {
+    "type": "crossfade",
+    "dur": 0.45
+   },
+   "start": 188.505,
+   "end": 191.695
+  },
+  {
+   "type": "crowd3d_cine",
+   "visualType": "dataGraphic",
+   "params": {
+    "value": 1829916,
+    "label": "ÇOCUK FELCİ ÖNCÜSÜ",
+    "note": "1954 saha deneyi · Kaynak: Michigan Üniversitesi"
+   },
+   "soundEffects": [
+    {
+     "type": "crowd",
+     "t": 0,
+     "dur": 7.0
+    },
+    {
+     "type": "bell",
+     "t": 1.6,
+     "gain": 0.035
+    },
+    {
+     "type": "bell",
+     "t": 2.6,
+     "gain": 0.04
+    },
+    {
+     "type": "bell",
+     "t": 3.6,
+     "gain": 0.045
+    }
+   ],
+   "purpose": "Ölçek",
+   "narrationText": "Bin dokuz yüz elli dörtte tarihin en büyük tıbbi deneylerinden biri başladı. Bir milyon sekiz yüz binden fazla çocuk katıldı. Onlara \"Çocuk Felci Öncüleri\" dendi.",
+   "id": "s41_crowd3d_cine",
+   "transitionIn": {
+    "type": "crossfade",
+    "dur": 0.45
+   },
+   "start": 191.245,
+   "end": 201.88
+  },
+  {
+   "type": "map",
+   "visualType": "dataGraphic",
+   "params": {
+    "title": "DEĞERLENDİRME MERKEZİ",
+    "terrain": true,
+    "tilt": 0.85,
+    "cy": 600,
+    "highlight": [
+     {
+      "state": "mi",
+      "t": 0.8
+     }
+    ],
+    "pins": [
+     {
+      "city": "pit",
+      "label": "Pittsburgh",
+      "sub": "Salk · aşı",
+      "t": 0.3,
+      "side": "right"
+     },
+     {
+      "city": "aa",
+      "label": "Ann Arbor, Michigan",
+      "sub": "Thomas Francis · bağımsız değerlendirme",
+      "t": 1.6,
+      "side": "left"
+     }
+    ],
+    "routes": [
+     {
+      "from": "pit",
+      "to": "aa",
+      "t0": 0.8,
+      "t1": 1.7
+     }
+    ],
+    "cam": [
+     [
+      0,
+      680,
+      200,
+      2.4
+     ],
+     [
+      8,
+      650,
+      190,
+      3.0
+     ]
+    ]
+   },
+   "purpose": "Tarafsızlık",
+   "narrationText": "Deneyi tarafsız kalması için Salk değil, eski hocası Thomas Francis yönetti.",
+   "id": "s42_map",
+   "transitionIn": {
+    "type": "crossfade",
+    "dur": 0.45
+   },
+   "start": 201.43,
+   "end": 206.66
+  },
+  {
+   "type": "money",
+   "visualType": "dataGraphic",
+   "params": {
+    "value": 7500000,
+    "label": "MARCH OF DIMES FONLARI · 1954 SAHA DENEYİ",
+    "coins_bg": true,
+    "num3d": true
+   },
+   "caption": "Kaynak: Michigan Üniversitesi, 1955 basın bülteni",
+   "purpose": "Halkın payı",
+   "narrationText": "Masrafların büyük kısmı, halkın gönderdiği o küçük bağışlarla karşılandı.",
+   "id": "s43_money",
+   "transitionIn": {
+    "type": "crossfade",
+    "dur": 0.45
+   },
+   "start": 206.21,
+   "end": 211.14
+  },
+  {
+   "type": "timeline3d",
+   "visualType": "dataGraphic",
+   "params": {
+    "title": "BEKLEYİŞ",
+    "items": [
+     [
+      "1947",
+      "Pittsburgh",
+      "src/02_virus_mikroskop.jpg"
+     ],
+     [
+      "1952",
+      "Salgın",
+      "src/04_demir_ciger_hasta.jpg"
+     ],
+     [
+      "1953",
+      "Kendine aşı",
+      "src/06_salk_portre_1959.jpg"
+     ],
+     [
+      "1954",
+      "Saha deneyi",
+      "src/09_asi_1956_b.jpg"
+     ],
+     [
+      "1955",
+      "Sonuç",
+      "src/11_gazete_manset_1955.jpg"
+     ],
+     [
+      "1963",
+      "Enstitü",
+      "src/14_salk_1988.jpg"
+     ]
+    ],
+    "active": 4,
+    "from": 3
+   },
+   "soundEffects": [
+    {
+     "type": "tick",
+     "t": 0.3
+    },
+    {
+     "type": "tick",
+     "t": 1.1
+    },
+    {
+     "type": "tick",
+     "t": 1.9
+    }
+   ],
+   "purpose": "Gerilim",
+   "narrationText": "Bir yıl boyunca bütün ülke sonucu bekledi.",
+   "id": "s44_timeline3d",
+   "transitionIn": {
+    "type": "crossfade",
+    "dur": 0.45
+   },
+   "start": 210.69,
+   "end": 214.625
+  },
+  {
+   "type": "chapter",
+   "visualType": "dataGraphic",
+   "visualAssets": [
+    "src/11_gazete_manset_1955.jpg"
+   ],
+   "params": {
+    "num": "BÖLÜM 5",
+    "title": "CEVAP",
+    "sub": "12 Nisan 1955",
+    "total": 6,
+    "index": 4
+   },
+   "noSubs": true,
+   "transitionIn": {
+    "type": "dip",
+    "dur": 0.5
+   },
+   "purpose": "Bölüm 5 geçişi: nefes anı",
+   "soundEffects": [
+    {
+     "type": "impact",
+     "t": 0.15,
+     "gain": 0.35,
+     "f0": 46
+    },
+    {
+     "type": "whoosh",
+     "t": 0.1,
+     "gain": 0.06
+    }
+   ],
+   "id": "s45_chapter",
+   "start": 214.125,
+   "end": 216.975
+  },
+  {
+   "type": "year_card",
+   "visualType": "archival",
+   "visualAssets": [
+    "src/16_rackham_annarbor.jpg"
+   ],
+   "caption": "Rackham Binası, Michigan Üniversitesi (günümüz) · CC0",
+   "params": {
+    "year": "1955",
+    "kicker": "12 NİSAN · ANN ARBOR, MICHIGAN"
+   },
+   "purpose": "Döngü: kanca tarihine dönüş",
+   "narrationText": "On iki Nisan, bin dokuz yüz elli beş. Michigan Üniversitesi'nde salon tıklım tıklım.",
+   "id": "s46_year_card",
+   "transitionIn": {
+    "type": "crossfade",
+    "dur": 0.45
+   },
+   "start": 216.525,
+   "end": 222.54
+  },
+  {
+   "type": "quote",
+   "visualType": "archival",
+   "visualAssets": [
+    "src/11_gazete_manset_1955.jpg"
+   ],
+   "caption": "ARŞİV · Salk aşısı manşetleri, 1955 · March of Dimes, Public domain",
+   "params": {
+    "quote": "Güvenli.\nEtkili.\nGüçlü.",
+    "highlight": [
+     0,
+     1,
+     2
+    ],
+    "who": "Thomas Francis, 12 Nisan 1955",
+    "size": 96,
+    "t0": 3.655,
+    "step": 0.5925
+   },
+   "noSubs": false,
+   "purpose": "Kanıt",
+   "narrationText": "Thomas Francis kürsüye çıkıyor ve sonucu açıklıyor: Aşı güvenli, etkili ve güçlü.",
+   "id": "s47_quote",
+   "transitionIn": {
+    "type": "crossfade",
+    "dur": 0.45
+   },
+   "start": 222.09,
+   "end": 227.885
+  },
+  {
+   "type": "headline3d",
+   "visualType": "archival",
+   "visualAssets": [
+    "src/11_gazete_manset_1955.jpg"
+   ],
+   "caption": "ARŞİV · Salk aşısı manşetleri, 1955 · March of Dimes, Public domain",
+   "params": {
+    "kicker": "12 NİSAN 1955 · BÜTÜN ÜLKE AYNI MANŞETİ OKUDU"
+   },
+   "soundEffects": [
+    {
+     "type": "room",
+     "t": 0.0,
+     "dur": 4.0
+    },
+    {
+     "type": "air",
+     "t": 1.13,
+     "dur": 0.75
+    },
+    {
+     "type": "body",
+     "t": 1.15
+    },
+    {
+     "type": "bass",
+     "t": 1.15,
+     "gain": 0.8
+    },
+    {
+     "type": "resonance",
+     "t": 1.16
+    },
+    {
+     "type": "dust",
+     "t": 1.14
+    },
+    {
+     "type": "slap",
+     "t": 1.22
+    },
+    {
+     "type": "tick",
+     "t": 1.23
+    },
+    {
+     "type": "tick",
+     "t": 1.25,
+     "gain": 0.7
+    },
+    {
+     "type": "scrape",
+     "t": 1.5,
+     "dur": 0.3
+    },
+    {
+     "type": "silence",
+     "t": 1.3,
+     "dur": 0.4
+    },
+    {
+     "type": "bell",
+     "t": 2.2,
+     "gain": 0.05
+    }
+   ],
+   "purpose": "Toplumsal patlama",
+   "narrationText": "Kiliselerin çanları çaldı. İnsanlar sokaklarda birbirine sarıldı.",
+   "id": "s48_headline3d",
+   "transitionIn": {
+    "type": "crossfade",
+    "dur": 0.45
+   },
+   "start": 227.435,
+   "end": 232.01
+  },
+  {
+   "type": "photo_card",
+   "visualType": "archival",
+   "visualAssets": [
+    "src/13_salk_havalimani_1959.jpg"
+   ],
+   "caption": "ARŞİV · Jonas Salk, 1959 · SAS, Public domain",
+   "params": {
+    "side": "right",
+    "kicker": "BİR GECEDE",
+    "title": "Ulusal\nkahraman"
+   },
+   "purpose": "Şöhret",
+   "narrationText": "Salk, bir gecede ülkenin kahramanı oldu.",
+   "id": "s49_photo_card",
+   "transitionIn": {
+    "type": "crossfade",
+    "dur": 0.45
+   },
+   "start": 231.56,
+   "end": 234.745
+  },
+  {
+   "type": "archival_push",
+   "visualType": "archival",
+   "visualAssets": [
+    "src/12_muhabir_murrow_1953.jpg"
+   ],
+   "caption": "ARŞİV · Edward R. Murrow, 1953 · Public domain",
+   "params": {
+    "z0": 1.1,
+    "z1": 1.24,
+    "x0": 0.02,
+    "x1": -0.02
+   },
+   "soundEffects": [
+    {
+     "type": "riser",
+     "t": 3.765,
+     "dur": 1.6,
+     "gain": 0.08
+    }
+   ],
+   "purpose": "Döngü: kanca sorusu",
+   "narrationText": "Ve o akşam, Edward Murrow o soruyu sordu: \"Patent kimin?\"",
+   "id": "s50_archival_push",
+   "transitionIn": {
+    "type": "crossfade",
+    "dur": 0.45
+   },
+   "start": 234.295,
+   "end": 238.46
+  },
+  {
+   "type": "quote",
+   "visualType": "archival",
+   "visualAssets": [
+    "src/06_salk_portre_1959.jpg"
+   ],
+   "caption": "ARŞİV · Jonas Salk, 1959 · SAS, Public domain",
+   "params": {
+    "grade": "bw_cool",
+    "quote": "Halkın, diyebilirim.\nPatent yok.\nGüneşin patentini\nalabilir misiniz?",
+    "highlight": [
+     2,
+     3
+    ],
+    "who": "Jonas Salk, 12 Nisan 1955",
+    "size": 66,
+    "sun": true,
+    "sun_t": 4.905
+   },
+   "noSubs": true,
+   "soundEffects": [
+    {
+     "type": "silence",
+     "t": 0.0,
+     "dur": 0.6
+    },
+    {
+     "type": "impact",
+     "t": 0.05,
+     "gain": 0.35,
+     "f0": 50
+    }
+   ],
+   "purpose": "Doruk",
+   "narrationText": "Salk sakin bir sesle cevap verdi: \"Halkın, diyebilirim. Patent yok. Güneşin patentini alabilir misiniz?\"",
+   "id": "s51_quote",
+   "transitionIn": {
+    "type": "crossfade",
+    "dur": 0.45
+   },
+   "start": 238.01,
+   "end": 245.78
+  },
+  {
+   "type": "chapter",
+   "visualType": "dataGraphic",
+   "visualAssets": [
+    "src/12_muhabir_murrow_1953.jpg"
+   ],
+   "params": {
+    "num": "BÖLÜM 6",
+    "title": "YANLIŞ BİLİNEN",
+    "sub": "Hikâyenin az bilinen tarafı",
+    "total": 6,
+    "index": 5
+   },
+   "noSubs": true,
+   "transitionIn": {
+    "type": "dip",
+    "dur": 0.5
+   },
+   "purpose": "Bölüm 6 geçişi: nefes anı",
+   "soundEffects": [
+    {
+     "type": "impact",
+     "t": 0.15,
+     "gain": 0.35,
+     "f0": 46
+    },
+    {
+     "type": "whoosh",
+     "t": 0.1,
+     "gain": 0.06
+    }
+   ],
+   "id": "s52_chapter",
+   "start": 245.28,
+   "end": 248.13
+  },
+  {
+   "type": "archival_kinetic",
+   "visualType": "archival",
+   "visualAssets": [
+    "src/17_gunes_nasa.jpg"
+   ],
+   "caption": "Güneş · NASA/SDO, Public domain",
+   "params": {
+    "grade": "none",
+    "lines": [
+     [
+      "Bu cümle bugün hâlâ",
+      "small",
+      0.3
+     ],
+     [
+      "CÖMERTLİĞİN SEMBOLÜ",
+      "big",
+      1.44
+     ],
+     [
+      "Ama hikâyenin az bilinen bir tarafı var.",
+      "small",
+      3.835
+     ]
+    ],
+    "turn_t": 3.835
+   },
+   "noSubs": true,
+   "purpose": "Beklentiyi kırma",
+   "narrationText": "Bu cümle bugün hâlâ cömertliğin sembolü olarak anlatılıyor. Ama hikâyenin az bilinen bir tarafı da var.",
+   "id": "s53_archival_kinetic",
+   "transitionIn": {
+    "type": "crossfade",
+    "dur": 0.45
+   },
+   "start": 247.68,
+   "end": 254.73
+  },
+  {
+   "type": "headline3d",
+   "visualType": "reconstruction",
+   "params": {
+    "doc": {
+     "head": "PATENT BAŞVURUSU",
+     "fields": [
+      [
+       "Buluş:",
+       "İnaktive çocuk felci aşısı"
+      ],
+      [
+       "Mucit:",
+       "Jonas E. Salk"
+      ],
+      [
+       "Başvuru tarihi:",
+       ""
+      ],
+      [
+       "Patent no:",
+       ""
+      ]
+     ]
+    },
+    "kicker": "HUKUKÇULARA GÖRE: PATENT ALMAK KOLAY DEĞİLDİ"
+   },
+   "soundEffects": [
+    {
+     "type": "room",
+     "t": 0.0,
+     "dur": 4.0
+    },
+    {
+     "type": "air",
+     "t": 1.13,
+     "dur": 0.75
+    },
+    {
+     "type": "body",
+     "t": 1.15
+    },
+    {
+     "type": "bass",
+     "t": 1.15,
+     "gain": 0.8
+    },
+    {
+     "type": "resonance",
+     "t": 1.16
+    },
+    {
+     "type": "dust",
+     "t": 1.14
+    },
+    {
+     "type": "slap",
+     "t": 1.22
+    },
+    {
+     "type": "tick",
+     "t": 1.23
+    },
+    {
+     "type": "tick",
+     "t": 1.25,
+     "gain": 0.7
+    },
+    {
+     "type": "scrape",
+     "t": 1.5,
+     "dur": 0.3
+    },
+    {
+     "type": "silence",
+     "t": 1.3,
+     "dur": 0.4
+    },
+    {
+     "type": "bell",
+     "t": 2.2,
+     "gain": 0.05
+    }
+   ],
+   "purpose": "Yeni bilgi: hukuki engel",
+   "narrationText": "Bazı hukukçulara göre aşının yöntemi daha önceki çalışmalara dayandığı için patent almak zaten kolay olmayacaktı.",
+   "id": "s54_headline3d",
+   "transitionIn": {
+    "type": "crossfade",
+    "dur": 0.45
+   },
+   "start": 254.28,
+   "end": 261.44
+  },
+  {
+   "type": "money",
+   "visualType": "dataGraphic",
+   "visualAssets": [
+    "src/13_salk_havalimani_1959.jpg"
+   ],
+   "caption": "ARŞİV · Jonas Salk, 1959 · SAS, Public domain",
+   "params": {
+    "value": 7000000000,
+    "label": "BAZI TAHMİNLERE GÖRE (FORBES)",
+    "strike": true,
+    "question": "Patent başvurusu hiç yapılmadı.",
+    "num3d": true,
+    "nocount": true,
+    "strike_t": 2.42
+   },
+   "purpose": "Yeni bilgi: iddia düzeltilir",
+   "narrationText": "Yani Salk büyük ihtimalle bir patenti reddetmedi; patent almaya hiç uğraşmadı.",
+   "id": "s55_money",
+   "transitionIn": {
+    "type": "crossfade",
+    "dur": 0.45
+   },
+   "start": 260.99,
+   "end": 266.31
+  },
+  {
+   "type": "question",
+   "visualType": "reconstruction",
+   "params": {
+    "bg3d": "virus",
+    "kicker": "PEKİ...",
+    "question": "Bu, kararını\nküçültür mü?"
+   },
+   "noSubs": true,
+   "purpose": "Yorum",
+   "narrationText": "Peki bu, kararını küçültür mü? Bizce hayır.",
+   "id": "s56_question",
+   "transitionIn": {
+    "type": "crossfade",
+    "dur": 0.45
+   },
+   "start": 265.86,
+   "end": 269.52
+  },
+  {
+   "type": "spotlight",
+   "visualType": "archival",
+   "visualAssets": [
+    "src/09_asi_1956_b.jpg"
+   ],
+   "caption": "ARŞİV · Çocuk felci aşısı, 1956 · Mississippi Dept. of Archives and History",
+   "params": {
+    "focus": [
+     0.45,
+     0.45
+    ],
+    "zoom": 1.35,
+    "target": [
+     760,
+     540
+    ],
+    "radius": 170,
+    "label": "Hızla çoğaltıldı",
+    "sub": "Toplu aşılama · 1956",
+    "label_xy": [
+     1080,
+     330
+    ]
+   },
+   "purpose": "Asıl seçim",
+   "narrationText": "Çünkü asıl seçim patentle ilgili değildi. Aşı, birçok üreticinin kullanımına açık kaldı. Bu yüzden hızla ve ucuza çoğaltılabildi.",
+   "id": "s57_spotlight",
+   "transitionIn": {
+    "type": "crossfade",
+    "dur": 0.45
+   },
+   "start": 269.07,
+   "end": 277.79
+  },
+  {
+   "type": "cutter3d",
+   "visualType": "dataGraphic",
+   "params": {
+    "kicker": "1955 · CUTTER LABORATUVARLARI",
+    "note": "Her nokta bir vaka · Kaynak: USC Scalar, The Cutter Incident",
+    "w1_t": 5.46,
+    "w2_t": 6.91,
+    "w3_t": 8.95
+   },
+   "purpose": "Dürüstlük",
+   "narrationText": "Kabul edilmesi gereken bir gerçek daha var. İlk aylarda bir firmanın hatalı üretimi, kırk bin kadar vakaya, iki yüz çocuğun felç kalmasına ve on çocuğun ölümüne yol açtı.",
+   "id": "s58_cutter3d",
+   "transitionIn": {
+    "type": "crossfade",
+    "dur": 0.45
+   },
+   "start": 277.34,
+   "end": 288.575
+  },
+  {
+   "type": "headline3d",
+   "visualType": "archival",
+   "visualAssets": [
+    "src/25_hew_rapor_1955.jpg"
+   ],
+   "caption": "ARŞİV · Aşı dağıtımı ve güvenliği raporu taslağı, Temmuz 1955 · HEW/DPLA, Public domain",
+   "params": {
+    "grade": "none",
+    "kicker": "TEMMUZ 1955 · AŞI GÜVENLİĞİ RAPORU"
+   },
+   "soundEffects": [
+    {
+     "type": "room",
+     "t": 0.0,
+     "dur": 4.0
+    },
+    {
+     "type": "air",
+     "t": 1.13,
+     "dur": 0.75
+    },
+    {
+     "type": "body",
+     "t": 1.15
+    },
+    {
+     "type": "bass",
+     "t": 1.15,
+     "gain": 0.8
+    },
+    {
+     "type": "resonance",
+     "t": 1.16
+    },
+    {
+     "type": "dust",
+     "t": 1.14
+    },
+    {
+     "type": "slap",
+     "t": 1.22
+    },
+    {
+     "type": "tick",
+     "t": 1.23
+    },
+    {
+     "type": "tick",
+     "t": 1.25,
+     "gain": 0.7
+    },
+    {
+     "type": "scrape",
+     "t": 1.5,
+     "dur": 0.3
+    },
+    {
+     "type": "silence",
+     "t": 1.3,
+     "dur": 0.4
+    },
+    {
+     "type": "bell",
+     "t": 2.2,
+     "gain": 0.05
+    }
+   ],
+   "purpose": "Ders: kurallar değişti",
+   "narrationText": "Bu trajedi, aşı üretimindeki güvenlik kurallarının baştan yazılmasını sağladı.",
+   "id": "s59_headline3d",
+   "transitionIn": {
+    "type": "crossfade",
+    "dur": 0.45
+   },
+   "start": 288.125,
+   "end": 293.875
+  },
+  {
+   "type": "bars3d",
+   "visualType": "dataGraphic",
+   "params": {
+    "title": "ABD'DE ÇOCUK FELCİ VAKALARI",
+    "sub": "Aşıdan önce ve sonra",
+    "bars": [
+     [
+      "1952",
+      57628,
+      null
+     ],
+     [
+      "1957",
+      5600,
+      null
+     ],
+     [
+      "1961",
+      161,
+      null
+     ]
+    ],
+    "note": "Kaynak: History of polio",
+    "step": 3.8600000000000003
+   },
+   "purpose": "Sonuç verisi",
+   "narrationText": "Ve sonra rakamlar konuştu. Bin dokuz yüz elli ikide yaklaşık elli sekiz bin olan vaka sayısı, sadece beş yıl sonra beş bin altı yüze indi. On yıl dolmadan, yüz altmış bire düştü.",
+   "id": "s60_bars3d",
+   "transitionIn": {
+    "type": "crossfade",
+    "dur": 0.45
+   },
+   "start": 293.425,
+   "end": 305.615
+  },
+  {
+   "type": "archival_push",
+   "visualType": "archival",
+   "visualAssets": [
+    "src/20_salk_sabin_1958.jpg"
+   ],
+   "caption": "ARŞİV · Çocuk Felci Onur Galerisi açılışı, 1958 (Salk ve Sabin) · NARA, Public domain",
+   "params": {
+    "z0": 1.04,
+    "z1": 1.14,
+    "x0": 0.02,
+    "x1": -0.02
+   },
+   "purpose": "Ödülsüz kalan kahraman (arşiv)",
+   "narrationText": "Salk, Nobel Ödülü'nü hiç almadı.",
+   "id": "s61_archival_push",
+   "transitionIn": {
+    "type": "crossfade",
+    "dur": 0.45
+   },
+   "start": 305.165,
+   "end": 307.905
+  },
+  {
+   "type": "timeline3d",
+   "visualType": "dataGraphic",
+   "params": {
+    "title": "JONAS SALK",
+    "items": [
+     [
+      "1947",
+      "Pittsburgh",
+      "src/02_virus_mikroskop.jpg"
+     ],
+     [
+      "1952",
+      "Salgın",
+      "src/04_demir_ciger_hasta.jpg"
+     ],
+     [
+      "1953",
+      "Kendine aşı",
+      "src/06_salk_portre_1959.jpg"
+     ],
+     [
+      "1954",
+      "Saha deneyi",
+      "src/09_asi_1956_b.jpg"
+     ],
+     [
+      "1955",
+      "Sonuç",
+      "src/11_gazete_manset_1955.jpg"
+     ],
+     [
+      "1963",
+      "Enstitü",
+      "src/14_salk_1988.jpg"
+     ]
+    ],
+    "active": 5,
+    "from": 4
+   },
+   "purpose": "Miras",
+   "narrationText": "Ama bin dokuz yüz altmış üçte kendi adını taşıyan araştırma enstitüsünü kurdu ve hayatının sonuna kadar çalışmayı sürdürdü.",
+   "id": "s62_timeline3d",
+   "transitionIn": {
+    "type": "crossfade",
+    "dur": 0.45
+   },
+   "start": 307.455,
+   "end": 315.32
+  },
+  {
+   "type": "globe",
+   "visualType": "dataGraphic",
+   "visualAssets": [
+    "src/18_dunya_nasa.jpg"
+   ],
+   "caption": "Dünya · NASA Blue Marble, Public domain",
+   "noSubs": true,
+   "params": {
+    "lines": [
+     [
+      "Bugün çocuk felci",
+      "small",
+      0.2
+     ],
+     [
+      "NEREDEYSE YOK",
+      "big",
+      1.2
+     ],
+     [
+      "Yabani virüs yalnızca",
+      "small",
+      2.2
+     ],
+     [
+      "iki ülkede kaldı.",
+      "small",
+      2.6
+     ]
+    ],
+    "marks": [
+     [
+      30.4,
+      69.3
+     ],
+     [
+      33.9,
+      67.7
+     ]
+    ],
+    "mark_t": 2.3,
+    "mark_label": [
+     "YABANİ VİRÜS · 2026",
+     "Pakistan · Afganistan"
+    ],
+    "lon0": 20,
+    "spin": 5,
+    "note": "Kaynak: GPEI / DSÖ, 2026"
+   },
+   "purpose": "Kalıcı fikir",
+   "narrationText": "Bugün çocuk felci, dünyanın neredeyse tamamından silinmiş durumda.",
+   "id": "s63_globe",
+   "transitionIn": {
+    "type": "crossfade",
+    "dur": 0.45
+   },
+   "start": 314.87,
+   "end": 319.995
+  },
+  {
+   "type": "kod",
+   "visualType": "dataGraphic",
+   "params": {
+    "badge": "BEYİN KODU · KOD #2",
+    "lines": [
+     "Bir fikrin gerçek değeri,",
+     "ona ne kadar sıkı sahip olduğunla değil,",
+     "kaç hayata dokunduğuyla ölçülür."
+    ],
+    "hl": 2,
+    "question": "Sen olsaydın, ne cevap verirdin?",
+    "sun": true,
+    "q_t": 10.145
+   },
+   "noSubs": true,
+   "purpose": "İlke + soru",
+   "narrationText": "Beyin Kodu Lab'da bu hikâyeden çıkardığımız karar ilkesi şu: Bir fikrin gerçek değeri, ona ne kadar sıkı sahip olduğunla değil, kaç hayata dokunduğuyla ölçülür. Sen olsaydın, o soruya ne cevap verirdin? Yorumlara yaz.",
+   "id": "s64_kod",
+   "transitionIn": {
+    "type": "crossfade",
+    "dur": 0.45
+   },
+   "start": 319.545,
+   "end": 334.41
+  },
+  {
+   "id": "s99_end",
+   "type": "end_screen",
+   "visualType": "illustration",
+   "visualAssets": [
+    "src/logo.png"
+   ],
+   "params": {
+    "tag": "HER PAZAR YENİ BELGESEL"
+   },
+   "noSubs": true,
+   "transitionIn": {
+    "type": "dip",
+    "dur": 0.6
+   },
+   "start": 333.81,
+   "end": 341.81,
+   "purpose": "Bitiş ekranı (YouTube öğeleri)"
+  }
+ ],
+ "subtitles": [
+  [
+   0.6,
+   3.17,
+   "On iki Nisan, bin dokuz yüz elli beş."
+  ],
+  [
+   3.37,
+   6.195,
+   "Amerika'da milyonlarca insan televizyonun\nbaşında."
+  ],
+  [
+   6.395,
+   9.975,
+   "Ünlü gazeteci Edward Murrow, kırk\nyaşındaki bir doktora basit"
+  ],
+  [
+   10.025,
+   11.195,
+   "bir soru soruyor:"
+  ],
+  [
+   13.085,
+   15.625,
+   "Doktorun vereceği cevap, tarihe geçecekti."
+  ],
+  [
+   15.825,
+   20.515,
+   "Ve verdiği cevapla, bazı tahminlere göre\nyedi milyar dolarlık bir serveti masada"
+  ],
+  [
+   20.565,
+   21.83,
+   "bıraktığı söyleniyor."
+  ],
+  [
+   22.03,
+   23.635,
+   "Bu, o cevabın hikâyesi."
+  ],
+  [
+   23.785,
+   27.62,
+   "Sonunda bu ünlü cevabın pek bilinmeyen bir\nyüzünü de göreceğiz."
+  ],
+  [
+   27.77,
+   32.085,
+   "Ama önce, o cevabı bu kadar değerli yapan\nkorkuyu anlamamız gerekiyor."
+  ],
+  [
+   35.285,
+   36.895,
+   "Bin dokuz yüz elli iki."
+  ],
+  [
+   37.045,
+   40.56,
+   "Amerika, tarihinin en büyük çocuk felci\nsalgınını yaşıyor."
+  ],
+  [
+   40.71,
+   43.475,
+   "Tek bir yılda yaklaşık elli sekiz bin\nvaka."
+  ],
+  [
+   43.675,
+   45.11,
+   "Üç binden fazla ölüm."
+  ],
+  [
+   45.26,
+   49.44,
+   "Yirmi bir binden fazla insan, ömrünün geri\nkalanını felçle geçirecek."
+  ],
+  [
+   49.64,
+   53.25,
+   "Hastalığın en korkutucu yanı, kimi\nseçeceğinin bilinmemesiydi."
+  ],
+  [
+   53.45,
+   57.765,
+   "Sabah koşarak okula giden bir çocuk, akşam\nyürüyemez hâle gelebiliyordu."
+  ],
+  [
+   57.965,
+   60.16,
+   "Bazı hastalar nefes bile alamıyordu."
+  ],
+  [
+   60.31,
+   64.22,
+   "Onlar için tek çare, demir akciğer denen\ndev metal makinelerdi."
+  ],
+  [
+   64.42,
+   66.93,
+   "Hastane koridorları bu makinelerle\ndoluydu."
+  ],
+  [
+   71.95,
+   74.685,
+   "Anneler çocuklarını sokağa çıkarmaya\nkorkuyordu."
+  ],
+  [
+   74.885,
+   77.48,
+   "Bu hastalık güçlüleri bile ayırt\netmiyordu."
+  ],
+  [
+   77.68,
+   82.06,
+   "Franklin Roosevelt, otuz dokuz yaşında\nçocuk felcine yakalanmış ve bir daha"
+  ],
+  [
+   82.11,
+   83.51,
+   "yardımsız yürüyememişti."
+  ],
+  [
+   83.71,
+   86.65,
+   "Kurduğu vakıf, halktan küçük bağışlar\ntopluyordu."
+  ],
+  [
+   86.85,
+   89.715,
+   "İnsanlar zarflara birer onluk koyup\ngönderiyordu."
+  ],
+  [
+   89.865,
+   93.2,
+   "Milyonlarca bozuk para, tek bir umut için\nbirikiyordu."
+  ],
+  [
+   93.4,
+   98.14,
+   "Ama bu umudu gerçeğe dönüştürecek kişi, o\nyıllarda henüz kimsenin tanımadığı genç"
+  ],
+  [
+   98.19,
+   99.095,
+   "bir doktordu."
+  ],
+  [
+   102.295,
+   105.37,
+   "Bu umudun adresi, Pittsburgh'daki bir\nlaboratuvardı."
+  ],
+  [
+   109.06,
+   113.125,
+   "Tıp fakültesini bitirdiğinde önünde rahat\nbir hekimlik kariyeri vardı."
+  ],
+  [
+   118.54,
+   122.225,
+   "Bin dokuz yüz kırk yedide Pittsburgh\nÜniversitesi'nde kendi virüs"
+  ],
+  [
+   122.275,
+   123.985,
+   "laboratuvarının başına geçti."
+  ],
+  [
+   128.485,
+   132.915,
+   "O yıllardaki yaygın görüş şuydu: Kalıcı\nbağışıklık için vücuda canlı ama"
+  ],
+  [
+   132.965,
+   134.855,
+   "zayıflatılmış virüs verilmeliydi."
+  ],
+  [
+   135.005,
+   136.755,
+   "Salk ise farklı düşünüyordu."
+  ],
+  [
+   136.955,
+   141.675,
+   "Virüsü formaldehitle tamamen öldürürse,\nvücut yine de onu tanımayı öğrenebilirdi."
+  ],
+  [
+   141.825,
+   144.715,
+   "Üstelik ölü bir virüs, kimseyi hasta\nedemezdi."
+  ],
+  [
+   144.915,
+   147.825,
+   "En güçlü rakibi Albert Sabin, ölü virüsle\nkalıcı"
+  ],
+  [
+   147.875,
+   149.945,
+   "koruma sağlanamayacağını savunuyordu."
+  ],
+  [
+   150.095,
+   151.575,
+   "Salk geri adım atmadı."
+  ],
+  [
+   151.775,
+   155.855,
+   "Laboratuvarında yıllar süren deneylerin\nsonunda, işe yarayacağına inandığı"
+  ],
+  [
+   155.905,
+   156.94,
+   "bir aşı vardı."
+  ],
+  [
+   168.2,
+   170.92,
+   "Salk'ın cevabı, beklenmeyecek kadar\nkişiseldi."
+  ],
+  [
+   171.07,
+   174.28,
+   "Bin dokuz yüz elli üçte aşıyı önce\nkendisine yaptı."
+  ],
+  [
+   174.43,
+   176.785,
+   "Sonra eşine. Sonra da üç oğluna."
+  ],
+  [
+   176.985,
+   180.77,
+   "Bir babanın, kendi geliştirdiği aşıyı\nkendi çocuklarına yapması..."
+  ],
+  [
+   188.705,
+   191.245,
+   "Ama inanç yetmezdi. Kanıt gerekiyordu."
+  ],
+  [
+   191.445,
+   196.035,
+   "Bin dokuz yüz elli dörtte tarihin en büyük\ntıbbi deneylerinden biri başladı."
+  ],
+  [
+   196.185,
+   199.175,
+   "Bir milyon sekiz yüz binden fazla çocuk\nkatıldı."
+  ],
+  [
+   199.325,
+   201.43,
+   "Onlara \"Çocuk Felci Öncüleri\" dendi."
+  ],
+  [
+   201.63,
+   206.21,
+   "Deneyi tarafsız kalması için Salk değil,\neski hocası Thomas Francis yönetti."
+  ],
+  [
+   206.41,
+   210.69,
+   "Masrafların büyük kısmı, halkın gönderdiği\no küçük bağışlarla karşılandı."
+  ],
+  [
+   210.89,
+   213.525,
+   "Bir yıl boyunca bütün ülke sonucu bekledi."
+  ],
+  [
+   216.725,
+   219.295,
+   "On iki Nisan, bin dokuz yüz elli beş."
+  ],
+  [
+   219.445,
+   222.09,
+   "Michigan Üniversitesi'nde salon tıklım\ntıklım."
+  ],
+  [
+   222.29,
+   227.435,
+   "Thomas Francis kürsüye çıkıyor ve sonucu\naçıklıyor: Aşı güvenli, etkili ve güçlü."
+  ],
+  [
+   227.635,
+   229.21,
+   "Kiliselerin çanları çaldı."
+  ],
+  [
+   229.36,
+   231.56,
+   "İnsanlar sokaklarda birbirine sarıldı."
+  ],
+  [
+   231.76,
+   234.295,
+   "Salk, bir gecede ülkenin kahramanı oldu."
+  ],
+  [
+   234.495,
+   238.31,
+   "Ve o akşam, Edward Murrow o soruyu sordu:\n\"Patent kimin?\""
+  ],
+  [
+   254.48,
+   259.1,
+   "Bazı hukukçulara göre aşının yöntemi daha\nönceki çalışmalara dayandığı için patent"
+  ],
+  [
+   259.15,
+   260.99,
+   "almak zaten kolay olmayacaktı."
+  ],
+  [
+   261.19,
+   265.86,
+   "Yani Salk büyük ihtimalle bir patenti\nreddetmedi; patent almaya hiç uğraşmadı."
+  ],
+  [
+   269.27,
+   271.775,
+   "Çünkü asıl seçim patentle ilgili değildi."
+  ],
+  [
+   271.925,
+   274.73,
+   "Aşı, birçok üreticinin kullanımına açık\nkaldı."
+  ],
+  [
+   274.88,
+   277.34,
+   "Bu yüzden hızla ve ucuza çoğaltılabildi."
+  ],
+  [
+   277.54,
+   280.22,
+   "Kabul edilmesi gereken bir gerçek daha\nvar."
+  ],
+  [
+   280.37,
+   285.175,
+   "İlk aylarda bir firmanın hatalı üretimi,\nkırk bin kadar vakaya, iki yüz çocuğun"
+  ],
+  [
+   285.225,
+   288.125,
+   "felç kalmasına ve on çocuğun ölümüne yol\naçtı."
+  ],
+  [
+   288.325,
+   292.825,
+   "Bu trajedi, aşı üretimindeki güvenlik\nkurallarının baştan yazılmasını sağladı."
+  ],
+  [
+   293.625,
+   295.285,
+   "Ve sonra rakamlar konuştu."
+  ],
+  [
+   295.435,
+   300.425,
+   "Bin dokuz yüz elli ikide yaklaşık elli\nsekiz bin olan vaka sayısı, sadece beş yıl"
+  ],
+  [
+   300.475,
+   302.44,
+   "sonra beş bin altı yüze indi."
+  ],
+  [
+   302.59,
+   305.165,
+   "On yıl dolmadan, yüz altmış bire düştü."
+  ],
+  [
+   305.365,
+   307.455,
+   "Salk, Nobel Ödülü'nü hiç almadı."
+  ],
+  [
+   307.655,
+   312.355,
+   "Ama bin dokuz yüz altmış üçte kendi adını\ntaşıyan araştırma enstitüsünü kurdu ve"
+  ],
+  [
+   312.405,
+   314.87,
+   "hayatının sonuna kadar çalışmayı sürdürdü."
+  ]
+ ],
+ "music": {
+  "moods": [
+   [
+    0,
+    "dark"
+   ],
+   [
+    32.685,
+    "tension"
+   ],
+   [
+    99.695,
+    "curious"
+   ],
+   [
+    162.05,
+    "dark"
+   ],
+   [
+    186.105,
+    "curious"
+   ],
+   [
+    214.125,
+    "hope"
+   ],
+   [
+    245.28,
+    "dark"
+   ],
+   [
+    293.425,
+    "hope"
+   ],
+   [
+    319.545,
+    "resolve"
+   ]
+  ],
+  "hits": [],
+  "risers": [],
+  "drops": []
+ }
+}
