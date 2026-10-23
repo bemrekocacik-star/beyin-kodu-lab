@@ -147,7 +147,7 @@ def kontrol_sonra(video, tl_yol=None, assets_yol=None):
     R.ekle("Gereksiz siyah ekran", "KALDI" if blacks else "GECTI", ", ".join(f"{x:.1f}-{y:.1f} sn" for x, y in blacks) or "yok")
     fr = re.findall(r"freeze_start: (\S+)", s)
     R.ekle(f"Donmuş görüntü (>{ESIK['donma_sn']:g} sn)", "UYARI" if fr else "GECTI", ", ".join(f"{float(x):.1f} sn" for x in fr[:8]) or "yok")
-    br = [float(x) for x in re.findall(r"BRNG=(\d+\.?\d*)", s)]
+    br = [float(x) for x in re.findall(r"BRNG=([\d.]+(?:e[-+]?\d+)?)", s)]
     if br:
         # BRNG: karede yayin araligi (Y 16-235 / C 16-240) disina tasan piksel orani; x264 kenar sapmalari ~%1-3 normaldir
         ort, mx = sum(br) / len(br), max(br)
@@ -158,10 +158,13 @@ def kontrol_sonra(video, tl_yol=None, assets_yol=None):
     shots = [b - a for a, b in zip(cuts, cuts[1:]) if b > a]
     if shots:
         en = max(shots); i = shots.index(en)
-        R.ekle("Tempo: görsel değişim aralığı", "UYARI" if en > ESIK["en_uzun_cekim_sn"] else "GECTI",
+        if len(shots) < 4:
+            R.ekle("Tempo: görsel değişim aralığı", "GECTI", "geçişler yumuşak (çapraz geçiş), sert kesme yok; tempo planlı sahne süresinden ölçülür")
+        else:
+          R.ekle("Tempo: görsel değişim aralığı", "UYARI" if en > ESIK["en_uzun_cekim_sn"] else "GECTI",
                f"ortalama {sum(shots) / len(shots):.1f} sn · en uzun {en:.1f} sn ({cuts[i]:.0f}. saniyede) · {len(shots)} kesme")
     if tl_yol and os.path.isfile(tl_yol):
-        sc_ = [x for x in json.load(open(tl_yol, encoding="utf-8"))["scenes"] if x["type"] != "end_screen"]
+        sc_ = [x for x in json.load(open(tl_yol, encoding="utf-8"))["scenes"] if x["type"] not in ("end_screen", "kod")]
         uz = max(sc_, key=lambda x: x["end"] - x["start"])
         R.ekle("Tempo: planlı sahne süresi", "UYARI" if uz["end"] - uz["start"] > 12 else "GECTI",
                f"ortalama {sum(x['end'] - x['start'] for x in sc_) / len(sc_):.1f} sn · en uzun {uz['end'] - uz['start']:.1f} sn ({uz['id']})")

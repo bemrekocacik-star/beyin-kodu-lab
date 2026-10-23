@@ -969,14 +969,14 @@
    "type": "archival_push",
    "visualType": "archival",
    "visualAssets": [
-    "src/07_salk_candid.jpg"
+    "src/02_virus_mikroskop.jpg"
    ],
-   "caption": "ARŞİV · Jonas Salk, 1959 · SAS, Public domain",
+   "caption": "ARŞİV · Poliovirüs, elektron mikroskobu · CDC, Public domain",
    "params": {
-    "z0": 1.1,
-    "z1": 1.22,
-    "x0": -0.02,
-    "x1": 0.02
+    "z0": 1.08,
+    "z1": 1.2,
+    "x0": 0.02,
+    "x1": -0.02
    },
    "purpose": "Sonuç: aşı hazır",
    "narrationText": "Laboratuvarında yıllar süren deneylerin sonunda, işe yarayacağına inandığı bir aşı vardı.",

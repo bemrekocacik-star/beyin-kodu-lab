@@ -2143,7 +2143,7 @@ class Headline3D(Scene):
                 img = cv2.warpAffine(img, M, (W, H), flags=cv2.INTER_LINEAR, borderMode=cv2.BORDER_REFLECT101)
         # 11) yazi: goruntu sakinlestikten sonra
         if p.get("kicker"):
-            ky = 150 if p.get("doc") else 1080 - SAFE_Y - 120
+            ky = 150 if (p.get("doc") or not self.spec.get("noSubs")) else 1080 - SAFE_Y - 120   # altyazi varsa ust tarafa (cakisma onlemi)
             draw_text(cv, img, p["kicker"], F_BOLD, 30, YELLOW, SAFE_X + 40, ky, reveal=prog(t, 2.2, 2.8), tracking=8, shadow=10)
         self.caption(img, t)
         return img

@@ -79,7 +79,7 @@ def main():
              "-profile:v", "high", "-pix_fmt", "yuv420p", "-bf", "2", "-g", str(g), "-keyint_min", str(g),
              "-sc_threshold", "0", "-flags", "+cgop",
              "-color_primaries", "bt709", "-color_trc", "bt709", "-colorspace", "bt709",
-             "-af", "loudnorm=I=-14:TP=-1.5:LRA=11", "-c:a", "aac", "-b:a", "384k", "-ar", "48000", "-ac", "2",
+             "-af", "loudnorm=I=-14:TP=-2:LRA=11", "-c:a", "aac", "-b:a", "384k", "-ar", "48000", "-ac", "2",
              "-shortest", "-movflags", "+faststart", out])
 
     # 5 render sonrasi kalite kontrolu
