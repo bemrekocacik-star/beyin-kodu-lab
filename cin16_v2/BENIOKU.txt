@@ -1,0 +1,18 @@
+BEYİN KODU LAB — CIN16 v2 (16:9 bulut motoru) · 24 Ekim 2026
+Alysa Liu belgeselinde (Beyin Kodu #2) kullanılan sürüm. Yerel v9 motorunun yanında yedek/ek hattır.
+
+DOSYALAR
+cin16.py          sahne motoru:  python cin16.py plan.json t0 t1 cikti.mp4
+cin16_fx2.py      v2 efektleri (loc2, rot2, news2, cards, checks2, quote2, neuro, formula, score2, tl2, kin, layered)
+align2.py         uzun anlatım kelime hizalama (sessizlik + hece hızı)
+align.py          kısa (Shorts) hizalama
+qc16.py           kontrol kareleri:  python qc16.py plan.json qc/a 55 112 243
+caption_styles.py altyazı (ASS):  --fmt 16x9 --style belgesel
+ornek_proje_alysa\  plan_alysa.py, timeline.py, gen_music16.py, mix.sh, measure.py, compose.py, compose2.py
+
+SIRA
+1) align2.py → kelimeler.json   2) timeline.py → tl.json, anlatim_tl.wav   3) plan_<konu>.py → plan.json
+4) cin16.py (parça parça)       5) gen_music16.py + mix.sh + measure.py   6) compose2.py   7) qc16 + ffprobe kontrolü
+Gereken: Python 3, opencv-python, numpy, pillow, scipy, ffmpeg; Inter + Lora + DejaVu + Noto Emoji fontları
+(font yolları cin16.py başında, Windows'ta gerekirse düzenlenir).
+Ayrıntı: beyin-kodu-lab-16x9-sinematik skill, §13.
