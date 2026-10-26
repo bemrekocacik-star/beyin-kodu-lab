@@ -1,0 +1,19 @@
+Beyin Kodu Lab — Kod #9: Alexander Fleming / Penisilin (26 Ekim 2026)
+
+GÖRSELLER (hepsi telifsiz / serbest lisanslı)
+1. Fleming renkli laboratuvar fotoğrafı, 1943 — Imperial War Museums (TR 1468), kamu malı.
+   commons.wikimedia.org/wiki/File:Synthetic_Production_of_Penicillin_TR1468.jpg (kopya: github.com/bvirrion/one-biology-book)
+2. Fleming masasında, petri kapları (imzalı) — U.S. Navy Bureau of Medicine and Surgery arşivi, "no known copyright restrictions".
+   commons.wikimedia.org/wiki/File:Alexander_Fleming_at_his_desk_in_a_white_lab_coat_with_penicillin_mold_in_petrie_dishes_around_him.jpg
+3. Penisilin üretimi, İngiltere 1943 — IWM D 16965 (Richard Stone), kamu malı. (kopya: github.com/kenhia/kloom)
+4. Howard Florey ve Ernst Chain — OpenStax Microbiology, Şekil 14.1, CC BY 4.0 (atıf videoda). Düşük çözünürlüktü, 3x büyütüldü.
+5. Petri kabı, küf, kavun, ikonlar, sayaçlar — kanala ait üretim (SVG + kod). Petri/kavun animasyonu temsilidir.
+MÜZİK/EFEKT: kod ile üretildi (telifsiz). SES: ElevenLabs (yapay ses).
+
+DOĞRULAMA
+- 1928 St Mary's, Londra; Staphylococcus; tatilden dönüş 3 Eylül 1928 — ACS "Discovery and Development of Penicillin" (acs.org)
+- "Penisilin" adı 1929 makalesi — Fleming, Br J Exp Pathol 1929
+- Oxford: Florey & Chain ekibi, saflaştırma ve 1940 fare deneyi — ACS; Nobel Prize (nobelprize.org/prizes/medicine/1945)
+- Peoria (ABD) küflü kavun, 1943 — USDA ARS / ACS
+- 1944 D-Day için milyonlarca doz — ACS
+- 1945 Nobel Fizyoloji/Tıp: Fleming, Chain, Florey — nobelprize.org
